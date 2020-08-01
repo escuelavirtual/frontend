@@ -1,13 +1,28 @@
-// Colors
+/* --------------------------------------------
+   * COLORS
+-------------------------------------------- */
 
 
-// Fonts
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap'); // Import font 'Lato' from 'fonts.google.com - google fonts'
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap'); // Import font 'Roboto' from 'fonts.google.com - google fonts'
+/* --------------------------------------------
+   * FONTS
+-------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"); // Import font 'Lato' from 'fonts.google.com - google fonts'
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap"); // Import font 'Roboto' from 'fonts.google.com - google fonts'
+
+@font-face {
+  src: url(./assets/fonts/CascadiaCodePL.ttf);
+  font-family: "Cascadia Code PL";
+}
+
+@font-face {
+  src: url(./assets/fonts/CascadiaCode.ttf);
+  font-family: "Cascadia Code";
+}
 
 $font-lato: "Lato";
 $font-Roboto: "Roboto";
 
-$font-family-default: "Lato","segoe UI",'Roboto',sans-serif;
-// $code-font-family-default: ;
+$font-family-default: "Lato", "segoe UI", "Roboto", sans-serif;
+$code-font-family-default: "Cascadia Code Pl", "Cascadia Code", "lato", "roboto";

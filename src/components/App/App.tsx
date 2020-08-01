@@ -8,6 +8,9 @@ function App() {
         <p>
           Este es el codigo del proyecto de <strong>Escuela virtual</strong> por ahora nos encontamos trabajando en la app
         </p>
+        <code>
+          Hola mundo
+        </code>
         <a
           className="escuelaDigitalGitHub"
           href="https://github.com/escuelavirtual"
