@@ -1,22 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './style.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Este es el codigo del proyecto de <strong>Escuela virtual</strong> por ahora nos encontamos trabajando en la app
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="escuelaDigitalGitHub"
+          href="https://github.com/escuelavirtual"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Ver en github
         </a>
       </header>
     </div>
