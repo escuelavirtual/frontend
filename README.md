@@ -14,7 +14,7 @@ Ejemplos:
 
 ```
 firstName = 'Alejandro'
-schoolName = 'Belgrano'
+schoolName = 'Belgran'
 
 title = 'PHP - Nivel principiante'
 
