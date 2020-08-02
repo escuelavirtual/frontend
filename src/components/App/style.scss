@@ -1,0 +1,17 @@
+.App {
+  color: #333333;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 25px;
+    color: blueViolet;
+  }
+  a {
+    color: darkmagenta;
+    text-decoration: 1px solid darkmagenta;
+  }
+}
