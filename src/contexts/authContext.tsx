@@ -2,7 +2,7 @@ import {createContext} from "react"
 
 const AuthContext = createContext({
     authenticated: false,
-    login: () => {}
+    user: null
 })
 
 export default AuthContext
