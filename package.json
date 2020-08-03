@@ -9,6 +9,7 @@
     "Escuela Virtual"
   ],
   "dependencies": {
+    "axios": "^0.19.2",
     "@material-ui/icons": "^4.9.1",
     "dotenv": "^8.2.0",
     "react": "^16.13.1",
