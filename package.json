@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "appName": "Escuela Digital",
   "version": "0.1.1",
   "private": false,
   "license": "MIT",
@@ -9,6 +10,7 @@
   ],
   "dependencies": {
     "axios": "^0.19.2",
+    "@material-ui/icons": "^4.9.1",
     "dotenv": "^8.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
