@@ -1,5 +1,5 @@
 import React from 'react';
-import AuthState from "../contexts/authState";
+import AuthState from "../../contexts/authState";
 import './style.scss';
 
 function App() {
