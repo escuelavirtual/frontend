@@ -10,7 +10,9 @@ const AuthState = (props : any) => {
         const initialState = {
             //include token 
             authenticated : null,
-            user : null
+            user : null,
+            message : null,
+            loading : true
         }
 
         const [state, dispatch] = useReducer(authReducer, initialState);
@@ -30,12 +32,14 @@ const AuthState = (props : any) => {
         }
     }
 
-
     return (
         <AuthContext.Provider
             value = {{
-                authenticated: true, 
-                user: null
+                authenticated : state.authenticated,
+                user : state.user,
+                message : state.message,
+                loading : state.loading,
+                registerUser,
             }}
         >
             {props.children}

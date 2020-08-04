@@ -1,9 +1,10 @@
 import React from 'react';
-//import AuthState from "../../contexts/authState";
+import AuthState from "../contexts/authState";
 import './style.scss';
 
 function App() {
-  return (    
+  return (
+    <AuthState>
       <div className="App">
         <header className="App-header">
           <p>
@@ -22,6 +23,7 @@ function App() {
           </a>
         </header>
       </div>
+    </AuthState>
   );
 }
 
