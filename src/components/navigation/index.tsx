@@ -1,13 +1,10 @@
 import React from "react";
-// import ReactDOM from "react-dom";
-import "./style.scss";
+import navItems from "./navItems";
 
 function Navigation(): JSX.Element {
   return (
-    <div id="navigation">
-      <div className="navigationContainer">
-        <nav></nav>
-      </div>
+    <div>
+      <nav></nav>
     </div>
   );
 }
