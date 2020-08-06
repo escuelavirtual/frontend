@@ -1,10 +1,23 @@
 import React from "react";
-import navItems from "./navItems";
+import NavItems from "./navItems";
+import NavLogo from "./navLogo";
+import Seeker from "../seeker/index";
+import "./style.scss";
 
 function Navigation(): JSX.Element {
   return (
-    <div>
-      <nav></nav>
+    <div className="navigation">
+      <nav>
+        <div className="navigationNavLogo">
+          <NavLogo />
+        </div>
+        <div className="navigationSeeker">
+          <Seeker />
+        </div>
+        <div className="navigationNavItems">
+          <NavItems />
+        </div>
+      </nav>
     </div>
   );
 }

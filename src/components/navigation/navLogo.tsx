@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.scss";
 
-function navLogo() {
+function NavLogo(): JSX.Element {
   return (
     <div>
       <img src="" alt="LogoPrincipalOriginal" />
-      <span>Hola mundo</span>
+      <span>Escuela Virtual</span>
       <span>0.1.0</span>
     </div>
   );
 }
 
-export default navLogo;
+export default NavLogo;
