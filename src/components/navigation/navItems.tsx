@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 
-function navItems() {
+function NavItems(): JSX.Element {
   return (
     <div className="navItems">
       <ul>
@@ -35,4 +35,4 @@ function navItems() {
   );
 }
 
-export default navItems;
+export default NavItems;
