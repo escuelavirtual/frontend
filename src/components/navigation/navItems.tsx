@@ -1,4 +1,5 @@
 import React from "react";
+import MoreHorizRoundedIcon from "@material-ui/icons/MoreHorizRounded";
 import "./style.scss";
 
 function NavItems(): JSX.Element {
@@ -7,7 +8,12 @@ function NavItems(): JSX.Element {
       <ul>
         <li>
           <a href="https://github.com/escuelavirtual">
-            <span>Inicio</span>
+            <span>Cursos</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/escuelavirtual">
+            <span>Maestros</span>
           </a>
         </li>
         <li>
@@ -17,17 +23,14 @@ function NavItems(): JSX.Element {
         </li>
         <li>
           <a href="https://github.com/escuelavirtual">
-            <span>Nosotros</span>
+            <span>Blog</span>
           </a>
         </li>
         <li>
           <a href="https://github.com/escuelavirtual">
-            <span>Cursos</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span></span>
+            <span>
+              <MoreHorizRoundedIcon />
+            </span>
           </a>
         </li>
       </ul>

@@ -1,15 +1,26 @@
 #Seeker {
+  display: flex;
+  background-color: #f3f3f3;
   border: none;
-  background-color: #eeeeee;
-  font-size: 16px;
-  outline: none;
-  padding: 5px 3px;
-  border-radius: 5px;
-  margin: 0 10px;
-  width: 300px;
-}
+  justify-content: center;
+  padding: 5px 10px;
+  color: #333333;
+  border-radius: 10%;
+  width: 100%;
 
-#Seeker:hover,
-:focus {
-  box-shadow: 2px 2px 5px #eeeeee;
+  input[type="text"] {
+    border: none;
+    background: none;
+    font-size: 14px;
+    padding: 3px;
+    outline: none;
+    width: 100%;
+
+    :hover {
+      box-shadow: 2px 2px 5px solid #eeeeee;
+    }
+  }
+  a {
+    color: #555555;
+  }
 }
