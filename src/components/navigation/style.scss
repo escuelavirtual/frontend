@@ -5,7 +5,19 @@
   width: 100%;
   background-color: #ffffff;
   box-shadow: 2px 2px 5px #f1f1f1;
-  position: relative;
+  position: sticky;
+  top: 0;
+  .navLeft {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    .navigationNavLogo {
+      display: flex;
+    }
+  }
 }
 
 .navItems {
