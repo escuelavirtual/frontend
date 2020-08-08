@@ -3,7 +3,7 @@ import React from "react";
 import "./style.scss";
 import SearchIcon from "@material-ui/icons/Search";
 
-function Seeker(): JSX.Element {
+function Seacher(): JSX.Element {
   return (
     <div id="SeekerMain">
       <form action="/search" method="get" role="search">
@@ -18,7 +18,7 @@ function Seeker(): JSX.Element {
             autoCorrect="off"
             // maxLength="50"
           />
-          <a href="https://github.com">
+          <a href="https://">
             <SearchIcon />
           </a>
         </div>
@@ -27,4 +27,4 @@ function Seeker(): JSX.Element {
   );
 }
 
-export default Seeker;
+export default Seacher;
