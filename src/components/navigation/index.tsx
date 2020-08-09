@@ -1,28 +1,27 @@
 import React from "react";
-import NavItems from "./navItems";
-import NavLogo from "./navLogo";
-import Seeker from "../seeker/index";
-import UserStatus from "./userStatus";
 import "./style.scss";
 
-function Navigation(): JSX.Element {
+import NavAppInfo from "./NavAppInfo";
+import Seacher from "../Seacher/index";
+import NavItems from "./NavItems";
+
+function Navigation(props: any) {
   return (
-    <div className="navigation">
-      <nav>
-        <div className="navigationNavLogo">
-          <NavLogo />
-        </div>
-        <div className="navigationSeeker">
-          <Seeker />
-        </div>
-        <div className="navigationNavItems">
-          <NavItems />
-        </div>
-        <div id="NavigationUserStatus">
-          <UserStatus />
-        </div>
-      </nav>
-    </div>
+    <>
+      <div className="navigation">
+        <nav>
+          <div>
+            <NavAppInfo />
+          </div>
+          <div>
+            <Seacher />
+          </div>
+          <div>
+            <NavItems items={["hola", "mundo"]} />
+          </div>
+        </nav>
+      </div>
+    </>
   );
 }
 

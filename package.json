@@ -14,13 +14,16 @@
     "dotenv": "^8.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "code-format": "prettier --write"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,6 +49,9 @@
     "@types/node": "^14.0.27",
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
+    "@types/react-helmet": "^6.1.0",
+    "@types/react-router-dom": "^5.1.5",
+    "prettier": "2.0.5",
     "sass": "^1.26.10",
     "typescript": "^3.9.7"
   }

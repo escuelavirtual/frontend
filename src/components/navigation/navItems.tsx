@@ -1,41 +1,25 @@
 import React from "react";
-import MoreHorizRoundedIcon from "@material-ui/icons/MoreHorizRounded";
-import "./style.scss";
 
-function NavItems(): JSX.Element {
+const NavItems = (props: any) => {
+  const items = [props.items];
+  const itemsOnclick = [props.itemsOnclick];
+  const listItems = items.map((items: string, itemsOnclick: any) => (
+    <li>
+      <a href="https://" onClick={itemsOnclick}>
+        <span>{items}</span>
+      </a>
+    </li>
+  ));
+
   return (
-    <div className="navItems">
-      <ul>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span>Cursos</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span>Maestros</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span>Contactanos</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span>Blog</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span>
-              <MoreHorizRoundedIcon />
-            </span>
-          </a>
-        </li>
-      </ul>
-    </div>
+    <>
+      <div className="navItems">
+        <ul>{listItems}</ul>
+      </div>
+    </>
   );
-}
+};
+
+type props = { items?: string; itemsOnclick?: string };
 
 export default NavItems;

@@ -6,15 +6,16 @@
   padding: 5px 10px;
   color: #333333;
   border-radius: 10%;
-  width: 100%;
+  width: auto;
 
   input[type="text"] {
     border: none;
     background: none;
-    font-size: 14px;
+    font-size: 15px;
     padding: 3px;
     outline: none;
     width: 100%;
+    margin: 0;
 
     :hover {
       box-shadow: 2px 2px 5px solid #eeeeee;
