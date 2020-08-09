@@ -1,41 +1,41 @@
 import React from "react";
+import MoreHorizRoundedIcon from "@material-ui/icons/MoreHorizRounded";
 import "./style.scss";
 
-/* -- Importando Iconos -- */
-import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
+function NavItems(): JSX.Element {
+  return (
+    <div className="navItems">
+      <ul>
+        <li>
+          <a href="https://github.com/escuelavirtual">
+            <span>Cursos</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/escuelavirtual">
+            <span>Maestros</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/escuelavirtual">
+            <span>Contactanos</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/escuelavirtual">
+            <span>Blog</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/escuelavirtual">
+            <span>
+              <MoreHorizRoundedIcon />
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
+}
 
-const navItems = () => (
-  <div className="navItems">
-    <ul>
-      <li>
-        <a href="#">
-          <span>Inicio</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <span>Contactanos</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <span>Nosotros</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <span>Cursos</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <span>
-            <HelpOutlineIcon />
-          </span>
-        </a>
-      </li>
-    </ul>
-  </div>
-);
-
-export default navItems;
+export default NavItems;

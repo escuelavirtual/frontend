@@ -1,29 +1,15 @@
-import React from 'react';
-import AuthState from "../contexts/authState";
-import './style.scss';
+import React from "react";
+import "./style.scss";
+import Navigation from "../navigation/index";
 
-function App() {
+function App(): JSX.Element {
   return (
-    <AuthState>
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Este es el codigo del proyecto de <strong>Escuela virtual</strong> por ahora nos encontamos trabajando en la app
-          </p>
-          <code>
-            Hola mundo
-          </code>
-          <a
-            className="escuelaDigitalGitHub"
-            href="https://github.com/escuelavirtual"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ver en github
-          </a>
-        </header>
-      </div>
-    </AuthState>
+    <div>
+      <Navigation />
+      <h1>
+        esta pagina esta en desarrollo si vez este mensaje es que todo esta bien
+      </h1>
+    </div>
   );
 }
 

@@ -1,6 +1,52 @@
-.navLogo {
+@import "../../variables";
+
+.navigation {
   display: flex;
-  img {
-    width: 95%;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px #f1f1f1;
+  position: sticky;
+  top: 0;
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  }
+  .navigationSeeker {
+    width: 50%;
+  }
+  .navigationUserStatus {
+    display: flex;
+    justify-content: right;
+    float: right;
+  }
+}
+
+.navItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      margin: 0 10px;
+
+      a {
+        justify-content: center;
+        align-items: center;
+        color: #333333;
+        text-decoration: none;
+        margin: 0;
+      }
+    }
   }
 }

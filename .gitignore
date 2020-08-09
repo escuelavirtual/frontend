@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# Archivos de control de versiones de dependencias
+package-lock.json
+yarn.lock
+
 # testing
 /coverage
 
