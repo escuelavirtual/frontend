@@ -1,4 +1,5 @@
 import React from "react";
+import MoreHorizRoundedIcon from "@material-ui/icons/MoreHorizRounded";
 import "./style.scss";
 
 const NavItems = (props: any) => {
@@ -8,12 +9,14 @@ const NavItems = (props: any) => {
 		))
 
   return (
+
 		<>
 			<div className="NavItems">
 				<ul>{ItemsList}</ul>
 			</div>
 		</>  
   )
+
 }
 
 export default NavItems;
