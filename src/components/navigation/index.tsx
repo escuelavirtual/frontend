@@ -2,7 +2,6 @@ import React from "react";
 import NavItems from "./navItems";
 import NavAppInfo from "./NavAppInfo";
 import Seeker from "../seeker/index";
-import UserStatus from "./userStatus";
 import "./style.scss";
 
 function Navigation(): JSX.Element {
