@@ -1,38 +1,19 @@
 import React from "react";
 import "./style.scss";
 
-function NavItems(): JSX.Element {
+const NavItems = (props: any) => {
+	const Items = [props.items];
+	const ItemsList = Items.map((Items: string) => (
+			<li><a href="#"><span>{Items}</span></a></li>
+		))
+
   return (
-    <div className="navItems">
-      <ul>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span>Inicio</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span>Contactanos</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span>Nosotros</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span>Cursos</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/escuelavirtual">
-            <span></span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  );
+		<>
+			<div className="NavItems">
+				<ul>{ItemsList}</ul>
+			</div>
+		</>  
+  )
 }
 
 export default NavItems;

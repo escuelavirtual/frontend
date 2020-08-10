@@ -1,6 +1,6 @@
 import React from "react";
 import NavItems from "./navItems";
-import NavLogo from "./navLogo";
+import NavAppInfo from "./NavAppInfo";
 import Seeker from "../seeker/index";
 import "./style.scss";
 
@@ -10,7 +10,7 @@ function Navigation(): JSX.Element {
       <nav>
         <div className="navLeft">
           <div className="navigationNavLogo">
-            <NavLogo />
+            <NavAppInfo/>
           </div>
           <div className="navigationSeeker">
             <Seeker />
