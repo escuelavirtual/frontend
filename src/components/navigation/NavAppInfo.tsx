@@ -6,10 +6,10 @@ const NavAppInfo = (props: any) => {
 				<>
 					<div className="NavAppInfo">
 						<figure></figure>
-						<a href="#">
+						
 							<span>{props.AppName}</span>
 							<span>{props.AppVersion}</span>
-						</a>
+						
 					</div>
 				</>
 			)
