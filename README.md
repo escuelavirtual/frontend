@@ -27,7 +27,7 @@ Es deseable el uso del estilo PascalCase para los nombres de las clases en Types
 
 ### Estilos
 
-En redaccion..
+En redaccion...
 
 ## Contribuir
 
