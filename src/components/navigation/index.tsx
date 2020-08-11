@@ -1,26 +1,26 @@
 import React from "react";
 import NavItems from "./navItems";
+import Searcher from "../Searcher/index";
 import NavAppInfo from "./NavAppInfo";
-import Seeker from "../seeker/index";
 import "./style.scss";
 
-function Navigation(): JSX.Element {
+function Navigation(props: any): JSX.Element {
   return (
-    <div className="navigation">
-      <nav>
-        <div className="navLeft">
-          <div className="navigationNavLogo">
-            <NavAppInfo/>
+    <>
+      <div id="Navigation">
+        <nav>
+          <div>
+            <NavAppInfo appName={props.appName} appVersion={props.appVersion} />
           </div>
-          <div className="navigationSeeker">
-            <Seeker />
+          <div>
+            <Searcher placeholder={props.placeholder}/>
           </div>
-          <div className="navigationNavItems">
-            <NavItems />
+          <div className="navigationItems">
+            <NavItems items={props.items} />
           </div>
-        </div>
-      </nav>
-    </div>
+        </nav>
+      </div>
+    </>
   );
 }
 
