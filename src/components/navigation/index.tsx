@@ -28,10 +28,13 @@ function Navigation(props: any): JSX.Element {
             <NavItems items={props.items} />
           </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
         </nav>
       </div>
     </>
 =======
+=======
+>>>>>>> 87ffbcb58670e0f288254d1ca9f497ef4c7937b6
 
         </div>
       </nav>
