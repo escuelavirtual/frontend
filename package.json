@@ -2,13 +2,14 @@
   "name": "frontend",
   "appName": "Escuela Digital",
   "version": "0.1.1",
-  "private": false,
+  "private": true,
   "license": "MIT",
   "keywords": [
     "Escuela digital",
     "Escuela Virtual"
   ],
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "dotenv": "^8.2.0",
     "react": "^16.13.1",
