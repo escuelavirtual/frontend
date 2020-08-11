@@ -2,19 +2,19 @@ import React from "react";
 import "./style.scss";
 
 const NavAppInfo = (props: any) => {
-		return (
-				<>
-					<div className="NavAppInfo">
-						<figure></figure>
-						
-							<span>{props.AppName}</span>
-							<span>{props.AppVersion}</span>
-						
-					</div>
-				</>
-			)
-	}
+  return (
+    <>
+      <div className="NavAppInfo">
+        <figure></figure>
+        <a href="about:blank">
+          <span>{props.AppName}</span>
+          <span>{props.AppVersion}</span>
+        </a>
+      </div>
+    </>
+  );
+};
 
-type props = {AppName: string, AppVersion: string | number};
+type props = { AppName: string; AppVersion: string | number };
 
 export default NavAppInfo;

@@ -2,20 +2,22 @@ import React from "react";
 import "./style.scss";
 
 const NavItems = (props: any) => {
-	const Items = [props.items];
-	const ItemsList = Items.map((Items: string) => (
-			<li><span>{Items}</span></li>
-		))
+  const Items = [props.items];
+  const ItemsList = Items.map((Items: string) => (
+    <li>
+      <a href="https://">
+        <span>{Items}</span>
+      </a>
+    </li>
+  ));
 
   return (
-
-		<>
-			<div className="NavItems">
-				<ul>{ItemsList}</ul>
-			</div>
-		</>  
-  )
-
-}
+    <>
+      <div className="navItems">
+        <ul>{ItemsList}</ul>
+      </div>
+    </>
+  );
+};
 
 export default NavItems;
