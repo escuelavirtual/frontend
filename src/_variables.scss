@@ -4,7 +4,11 @@
 $color-primary: #6705C6;
 $color-secondary-one: #13F3F0;
 $color-secondary-two: #02B6FF;
-$color-tertiary: #02B6FF;
+$color-tertiary: #f6f5f5;
+$color-enfasis-green: #40B218;
+$color-enfasis-red: #F44336;
+$color-enfasis-yellow: #FFC107;
+$color-enfasis-purple: #88317A;
 
 // Color primary dark and light
 $color-primary-light-one: #8E1EF9;
@@ -28,12 +32,59 @@ $color-secondary-one-dark-four: #033E3E;
 
 $color-secondary-two-light-one: #41C8FF;
 $color-secondary-two-light-two: #81DBFF;
-$color-secondary-two-light-trhee: #C0EDFF;
+$color-secondary-two-light-three: #C0EDFF;
 $color-secondary-two-light-four: #DFF6FF;
 $color-secondary-two-dark-one: #0089C1;
 $color-secondary-two-dark-two: #0072A1;
 $color-secondary-two-dark-three: #005B81;
 $color-secondary-two-dark-four: #004560;
+
+// Color tertiary dark and light
+$color-tertiary-light-one: #F8F8F8;
+$color-tertiary-light-two: #FBFAFA;
+$color-tertiary-light-three: #FCFBFB;
+$color-tertiary-light-four: #FFFFFF;
+$color-tertiary-dark-one: #D9D5D5;
+$color-tertiary-dark-two: #BCB4B4;
+$color-tertiary-dark-three: #9F9494;
+$color-tertiary-dark-four: #817474;
+
+$color-enfasis-green-light-one: #61E433;
+$color-enfasis-green-light-two: #96ED77;
+$color-enfasis-green-light-three: #CAF6BB;
+$color-enfasis-green-light-four: #E5FADD;
+$color-enfasis-green-dark-one: #308512;
+$color-enfasis-green-dark-two: #20590C;
+$color-enfasis-green-dark-three: #184309;
+$color-enfasis-green-dark-four: #102C06;
+
+$color-enfasis-red-light-one: #F77268;
+$color-enfasis-red-light-two: #FAA19B;
+$color-enfasis-red-light-three: #FCD0CD;
+$color-enfasis-red-light-four: none;
+$color-enfasis-red-dark-one: #D4190C;
+$color-enfasis-red-dark-two: #8D1108;
+$color-enfasis-red-dark-three: #6A0D06;
+$color-enfasis-red-dark-four: #470804;
+
+$color-enfasis-yellow-light-one: #FFD145;
+$color-enfasis-yellow-light-two: #FFE083;
+$color-enfasis-yellow-light-three: #FFF0C1;
+$color-enfasis-yellow-light-four: #FFF7E0;
+$color-enfasis-yellow-dark-one: #C59300;
+$color-enfasis-yellow-dark-two: #836200;
+$color-enfasis-yellow-dark-three: #624A00;
+$color-enfasis-yellow-dark-four: #423100;
+
+$color-enfasis-purple-light-one: #BE4CAC;
+$color-enfasis-purple-light-two: #D487C8;
+$color-enfasis-purple-light-three: #E9C3E3;
+$color-enfasis-purple-light-four: #F4E1F1;
+$color-enfasis-purple-dark-one: #66255C;
+$color-enfasis-purple-dark-two: #44183D;
+$color-enfasis-purple-dark-three: #33122E;
+$color-enfasis-purple-dark-four: #220C1F;
+
 
 /* --------------------------------------------
    * FONTS
@@ -52,6 +103,7 @@ $color-secondary-two-dark-four: #004560;
   font-family: "Cascadia Code";
 }
 
+// Fuentes unitarias
 $font-lato: "Lato";
 $font-Roboto: "Roboto";
 
