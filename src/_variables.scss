@@ -1,14 +1,39 @@
 /* --------------------------------------------
    * COLORS
 -------------------------------------------- */
-$color-primary-one: #6705c6;
-$color-primary-two: #2936c3;
-$color-primary-three: #1cdccd;
-$color-primary-four: #13f3f0;
-$color-primary-five: #02b6ff;
-$color-primary-six: #d4fcf4;
-$color-primary-seven: #3ba1ad;
-$color-primary-eight: #015759;
+$color-primary: #6705C6;
+$color-secondary-one: #13F3F0;
+$color-secondary-two: #02B6FF;
+$color-tertiary: #02B6FF;
+
+// Color primary dark and light
+$color-primary-light-one: #8E1EF9;
+$color-primary-light-two: #B369FB;
+$color-primary-light-three: #C68FFC;
+$color-primary-light-four: #ECDAFE;
+$color-primary-dark-one: #4D0495;
+$color-primary-dark-two: #40037C;
+$color-primary-dark-three: #40037C;
+$color-primary-dark-four: #27024A;
+
+// Colors secondary's dark and light
+$color-secondary-one-light-one: #4EF6F4;
+$color-secondary-one-light-two: #89F9F8;
+$color-secondary-one-light-three: #C4FCFB;
+$color-secondary-onelight-four: #E2FEFD;
+$color-secondary-one-dark-one: #0BDAD7;
+$color-secondary-one-dark-two: #089C9A;
+$color-secondary-one-dark-three: #055D5C;
+$color-secondary-one-dark-four: #033E3E;
+
+$color-secondary-two-light-one: #41C8FF;
+$color-secondary-two-light-two: #81DBFF;
+$color-secondary-two-light-trhee: #C0EDFF;
+$color-secondary-two-light-four: #DFF6FF;
+$color-secondary-two-dark-one: #0089C1;
+$color-secondary-two-dark-two: #0072A1;
+$color-secondary-two-dark-three: #005B81;
+$color-secondary-two-dark-four: #004560;
 
 /* --------------------------------------------
    * FONTS
