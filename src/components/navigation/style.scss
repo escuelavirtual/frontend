@@ -1,26 +1,23 @@
 @import "../../variables";
 
-.navigation {
+#Navigation {
   display: flex;
   width: 100%;
+  min-height: 20px;
+  max-height: 100px;
   background-color: #ffffff;
   box-shadow: 2px 2px 5px #f1f1f1;
   position: sticky;
   top: 0;
   nav {
     display: flex;
-    justify-content: center;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
     align-items: center;
     align-content: center;
-    align-self: center;
-  }
-  .navigationSeeker {
-    width: 50%;
-  }
-  .navigationUserStatus {
-    display: flex;
-    justify-content: right;
-    float: right;
+    padding: 0;
+    margin: 0;
   }
 }
 

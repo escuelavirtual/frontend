@@ -1,15 +1,22 @@
-import React from "react";
-import "./style.scss";
-import Navigation from "../navigation/index";
+import React, { lazy, Suspense } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// Importacion de rutas
+const Home = lazy(() => import("../../routes/home/index"));
+const Login = lazy(() => import("../../routes/login/index"));
+const PageNotFound = lazy(() => import("../../routes/PageNotFound/index"));
 
 function App(): JSX.Element {
   return (
-    <div>
-      <Navigation />
-      <h1>
-        esta pagina esta en desarrollo si vez este mensaje es que todo esta bien
-      </h1>
-    </div>
+    <Suspense fallback={<div>Hola</div>}>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/login" component={Login} />
+          <Route component={PageNotFound} />
+        </Switch>
+      </Router>
+    </Suspense>
   );
 }
 
