@@ -1,21 +1,20 @@
-import React, { Suspense } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import "./style.scss";
+import React, { lazy, Suspense } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-const Home = React.lazy(() => import("../../routes/home/index"));
-const Login = React.lazy(() => import("../../routes/login/index"));
+// Importacion de rutas
+const Home = lazy(() => import("../../routes/home/index"));
+const Login = lazy(() => import("../../routes/login/index"));
+const PageNotFound = lazy(() => import("../../routes/PageNotFound/index"));
 
 function App(): JSX.Element {
   return (
-    <Suspense
-      fallback={
-        <div className="loading">
-          <span>Cargando ...</span>
-        </div>
-      }>
+    <Suspense fallback={<div>Hola</div>}>
       <Router>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/login" component={Login} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/login" component={Login} />
+          <Route component={PageNotFound} />
+        </Switch>
       </Router>
     </Suspense>
   );
