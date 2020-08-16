@@ -9,6 +9,7 @@ Para instalar este proyecto, clona el repositorio.
 Luego en tu terminal:
 
 `cd ruta / a / su / clon`
+
 `npm install`
 
 
