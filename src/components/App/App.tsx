@@ -1,16 +1,15 @@
 import React from "react";
-import "./style.scss";
-import Navigation from "../navigation/index";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Home from "../../routes/home/index";
+import Login from "../../routes/login";
 
 function App(): JSX.Element {
   return (
-    <div>
-      <Navigation />
-      <h1>
-        esta pagina esta en desarrollo si vez este mensaje es que todo esta bien
-      </h1>
-    </div>
-  );
+    <Router>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/login" component={Login} />
+    </Router>
+  )
 }
 
 export default App;
