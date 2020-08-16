@@ -2,7 +2,18 @@
 
 ## Contenido
 
-### Guidelines
+### Configuración del proyecto
+
+Para instalar este proyecto, clona el repositorio.
+
+Luego en tu terminal:
+
+`cd ruta / a / su / clon`
+
+`npm install`
+
+
+### Convenciones
 
 Se debe utilizar el idioma ingles para nombrar a las clases, variables y constantes, nombre de funciones, etc.
 Los nombres de las clases (javascript)

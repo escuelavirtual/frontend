@@ -1,14 +1,102 @@
 /* --------------------------------------------
    * COLORS
 -------------------------------------------- */
-$color-primary-one: #6705c6;
-$color-primary-two: #2936c3;
-$color-primary-three: #1cdccd;
-$color-primary-four: #13f3f0;
-$color-primary-five: #02b6ff;
-$color-primary-six: #d4fcf4;
-$color-primary-seven: #3ba1ad;
-$color-primary-eight: #015759;
+$color-primary: #6705c6; // Color primary
+$color-secondary-one: #13f3f0; // Color Secondary one
+$color-secondary-two: #02b6ff; // Color secondary two
+$color-tertiary: #f6f5f5; // Color tertiary
+$color-enfasis-green: #40b218; // Color enfasis green
+$color-enfasis-red: #f44336; // Color enfasis red
+$color-enfasis-yellow: #ffc107; // Color enfasis yellow
+$color-enfasis-purple: #88317a; // Color enfasis purple
+
+// Color primary light
+$color-primary-light-one: #8e1ef9;
+$color-primary-light-two: #b369fb;
+$color-primary-light-three: #c68ffc;
+$color-primary-light-four: #ecdafe;
+// color Primary dark
+$color-primary-dark-one: #4d0495;
+$color-primary-dark-two: #40037c;
+$color-primary-dark-three: #40037c;
+$color-primary-dark-four: #27024a;
+
+// Colors secondary's light
+$color-secondary-one-light-one: #4ef6f4;
+$color-secondary-one-light-two: #89f9f8;
+$color-secondary-one-light-three: #c4fcfb;
+$color-secondary-one-light-four: #e2fefd;
+// Colors secondary one light
+$color-secondary-one-dark-one: #0bdad7;
+$color-secondary-one-dark-two: #089c9a;
+$color-secondary-one-dark-three: #055d5c;
+$color-secondary-one-dark-four: #033e3e;
+
+// Colors secondary two light
+$color-secondary-two-light-one: #41c8ff;
+$color-secondary-two-light-two: #81dbff;
+$color-secondary-two-light-three: #c0edff;
+$color-secondary-two-light-four: #dff6ff;
+// Colors secondary two dark
+$color-secondary-two-dark-one: #0089c1;
+$color-secondary-two-dark-two: #0072a1;
+$color-secondary-two-dark-three: #005b81;
+$color-secondary-two-dark-four: #004560;
+
+// Color tertiary light
+$color-tertiary-light-one: #f8f8f8;
+$color-tertiary-light-two: #fbfafa;
+$color-tertiary-light-three: #fcfbfb;
+$color-tertiary-light-four: #ffffff;
+// Color tertiary dark
+$color-tertiary-dark-one: #d9d5d5;
+$color-tertiary-dark-two: #bcb4b4;
+$color-tertiary-dark-three: #9f9494;
+$color-tertiary-dark-four: #817474;
+
+// Color enfasis green light
+$color-enfasis-green-light-one: #61e433;
+$color-enfasis-green-light-two: #96ed77;
+$color-enfasis-green-light-three: #caf6bb;
+$color-enfasis-green-light-four: #e5fadd;
+// Color enfasis green dark
+$color-enfasis-green-dark-one: #308512;
+$color-enfasis-green-dark-two: #20590c;
+$color-enfasis-green-dark-three: #184309;
+$color-enfasis-green-dark-four: #102c06;
+
+// Color enfasis red light
+$color-enfasis-red-light-one: #f77268;
+$color-enfasis-red-light-two: #faa19b;
+$color-enfasis-red-light-three: #fcd0cd;
+$color-enfasis-red-light-four: none;
+// Color enfasis green dark
+$color-enfasis-red-dark-one: #d4190c;
+$color-enfasis-red-dark-two: #8d1108;
+$color-enfasis-red-dark-three: #6a0d06;
+$color-enfasis-red-dark-four: #470804;
+
+// Color enfasis yellow light
+$color-enfasis-yellow-light-one: #ffd145;
+$color-enfasis-yellow-light-two: #ffe083;
+$color-enfasis-yellow-light-three: #fff0c1;
+$color-enfasis-yellow-light-four: #fff7e0;
+// Color enfasis green dark
+$color-enfasis-yellow-dark-one: #c59300;
+$color-enfasis-yellow-dark-two: #836200;
+$color-enfasis-yellow-dark-three: #624a00;
+$color-enfasis-yellow-dark-four: #423100;
+
+// Color enfasis purple light
+$color-enfasis-purple-light-one: #be4cac;
+$color-enfasis-purple-light-two: #d487c8;
+$color-enfasis-purple-light-three: #e9c3e3;
+$color-enfasis-purple-light-four: #f4e1f1;
+// Color enfasis purple dark
+$color-enfasis-purple-dark-one: #66255c;
+$color-enfasis-purple-dark-two: #44183d;
+$color-enfasis-purple-dark-three: #33122e;
+$color-enfasis-purple-dark-four: #220c1f;
 
 /* --------------------------------------------
    * FONTS
@@ -27,6 +115,7 @@ $color-primary-eight: #015759;
   font-family: "Cascadia Code";
 }
 
+// Fuentes unitarias
 $font-lato: "Lato";
 $font-Roboto: "Roboto";
 
