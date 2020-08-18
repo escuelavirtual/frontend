@@ -99,6 +99,21 @@ $color-enfasis-purple-dark-three: #33122e;
 $color-enfasis-purple-dark-four: #220c1f;
 
 /* --------------------------------------------
+   * Spacing variables
+-------------------------------------------- */
+$spacing-four: 4px;
+$spacing-eight: 8px;
+$spacing-sixteen: 16px;
+$spacing-twenty-four: 24px;
+$spacing-thirty-two: 32px;
+$spacing-forty: 40px;
+$spacing-forty-eight: 48px;
+$spacing-fifty-six: 56px;
+$spacing-sixty-four: 64px;
+$spacing-seventy-two: 72px;
+$spacing-eighty: 80px;
+
+/* --------------------------------------------
    * FONTS
 -------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"); // Import font 'Lato' from 'fonts.google.com - google fonts'
