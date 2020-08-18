@@ -101,80 +101,80 @@ $cEPurpleDarkFour: #220c1f;
 /* --------------------------------------------
    * Spacing variables
 -------------------------------------------- */
-$spacing-four: 4px;
-$spacing-eight: 8px;
-$spacing-sixteen: 16px;
-$spacing-twenty-four: 24px;
-$spacing-thirty-two: 32px;
-$spacing-forty: 40px;
-$spacing-forty-eight: 48px;
-$spacing-fifty-six: 56px;
-$spacing-sixty-four: 64px;
-$spacing-seventy-two: 72px;
-$spacing-eighty: 80px;
+$spacingFour: 4px;
+$spacingEight: 8px;
+$spacingSixteen: 16px;
+$spacingTwenty-four: 24px;
+$spacingThirty-two: 32px;
+$spacingForty: 40px;
+$spacingForty-eight: 48px;
+$spacingFifty-six: 56px;
+$spacingSixty-four: 64px;
+$spacingSeventy-two: 72px;
+$spacingEighty: 80px;
 
 /* --------------------------------------------
    * Spacing buttons
 -------------------------------------------- */
-$spacing-super-big-button: 25px;
-$spacing-big-button: 22px;
-$spacing-semi-middle-button: 18px;
-$spacing-small-button: 12px;
+$spacingSuperBigButton: 25px;
+$spacingBigButton: 22px;
+$spacinSemiMiddleButton: 18px;
+$spacingSmallButton: 12px;
 
 /* --------------------------------------------
    * Shades
 -------------------------------------------- */
 //shadows without material
-$shade1-Normal: 0px 1px 2px rgba(112, 92, 92, 0.12);
-$shade2-Normal: 0px 2px 4px rgba(112, 92, 92, 0.12);
-$shade3-Normal: 0px 3px 6px rgba(112, 92, 92, 0.12);
-$shade4-Normal: 0px 4px 8px rgba(112, 92, 92, 0.12);
-$shade5-Normal: 0px 5px 10px rgba(112, 92, 92, 0.12);
-$shade6-Normal: 0px 6px 12px rgba(112, 92, 92, 0.12);
+$shadeOneNormal: 0px 1px 2px rgba(112, 92, 92, 0.12);
+$shadeTwoNormal: 0px 2px 4px rgba(112, 92, 92, 0.12);
+$shadeThreeNormal: 0px 3px 6px rgba(112, 92, 92, 0.12);
+$shadeFourNormal: 0px 4px 8px rgba(112, 92, 92, 0.12);
+$shadeFiveNormal: 0px 5px 10px rgba(112, 92, 92, 0.12);
+$shadeSixNormal: 0px 6px 12px rgba(112, 92, 92, 0.12);
 
 //shadows with material
-$shade1-material: 0px 1px 2px rgba(236, 218, 254, 0.64);
-$shade2-material: 0px 2px 4px rgba(236, 218, 254, 0.64);
-$shade3-material: 0px 3px 6px rgba(236, 218, 254, 0.64);
-$shade4-material: 0px 4px 8px rgba(236, 218, 254, 0.64);
-$shade5-material: 0px 5px 10px rgba(236, 218, 254, 0.64);
-$shade6-material: 0px 6px 12px rgba(236, 218, 254, 0.64);
+$shadeOnematerial: 0px 1px 2px rgba(236, 218, 254, 0.64);
+$shadeTwoMaterial: 0px 2px 4px rgba(236, 218, 254, 0.64);
+$shadeThreeMaterial: 0px 3px 6px rgba(236, 218, 254, 0.64);
+$shadeFourMaterial: 0px 4px 8px rgba(236, 218, 254, 0.64);
+$shadeFiveMaterial: 0px 5px 10px rgba(236, 218, 254, 0.64);
+$shadeSixMaterial: 0px 6px 12px rgba(236, 218, 254, 0.64);
 
 /* --------------------------------------------
    * Text size
 -------------------------------------------- */
 //titles
-$large-title: 40px;
-$medium-title: 36px;
-$small-title: 30px;
+$largeTitle: 40px;
+$mediumTitle: 36px;
+$smallTitle: 30px;
 
 //subtitle
 $subtitle: 22px;
-$subtitle2: 18px;
-$smaller-subtitle: 14px;
+$subtitleTwo: 18px;
+$smallerSubtitle: 14px;
 
 //text body
-$large-body: 18px;
-$medium-body: 14px;
-$small-body: 16px;
-$smaller-body: 12px;
+$largeBody: 18px;
+$mediumBody: 14px;
+$smallBody: 16px;
+$smallerBody: 12px;
 
 //text emphasis
-$body-emphasis-Medium: 16px;
-$body-emphasis-Small: 14px;
-$body-emphasis-smaller: 12px;
+$bodyEmphasisMedium: 16px;
+$bodyEmphasisSmall: 14px;
+$bodyEmphasisSmaller: 12px;
 
 //text buttons
-$super-larger-button: 30px;
-$large-button: 24px;
-$medium-button: 18px;
-$small-button: 12px;
+$superLargerButton: 30px;
+$largeButton: 24px;
+$mediumButton: 18px;
+$smallButton: 12px;
 
 //text buttons light
-$super-larger-button-light: 30px;
-$large-button-light: 24px;
-$medium-button-light: 18px;
-$small-button-light: 12px;
+$superLargerButtonLight: 30px;
+$largeButtonLight: 24px;
+$mediumButtonLight: 18px;
+$smallButtonLight: 12px;
 
 /* --------------------------------------------
    * FONTS
@@ -189,5 +189,5 @@ $small-button-light: 12px;
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"); // Import font 'Roboto Slab' from 'fonts.google.com - google fonts'
 
 // typography titles and body
-$title-font: "Source Sans Pro", "Lato";
-$body-font: "Roboto", "Roboto Slab";
+$titleFont: "Source Sans Pro", "Lato";
+$bodyFont: "Roboto", "Roboto Slab";
