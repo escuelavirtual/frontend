@@ -114,6 +114,25 @@ $spacing-seventy-two: 72px;
 $spacing-eighty: 80px;
 
 /* --------------------------------------------
+   * Shades
+-------------------------------------------- */
+//shadows without material
+$shade1-Normal: 0px 1px 2px rgba(112, 92, 92, 0.12);
+$shade2-Normal: 0px 2px 4px rgba(112, 92, 92, 0.12);
+$shade3-Normal: 0px 3px 6px rgba(112, 92, 92, 0.12);
+$shade4-Normal: 0px 4px 8px rgba(112, 92, 92, 0.12);
+$shade5-Normal: 0px 5px 10px rgba(112, 92, 92, 0.12);
+$shade6-Normal: 0px 6px 12px rgba(112, 92, 92, 0.12);
+
+//shadows with material
+$shade1-material: 0px 1px 2px rgba(236, 218, 254, 0.64);
+$shade2-material: 0px 2px 4px rgba(236, 218, 254, 0.64);
+$shade3-material: 0px 3px 6px rgba(236, 218, 254, 0.64);
+$shade4-material: 0px 4px 8px rgba(236, 218, 254, 0.64);
+$shade5-material: 0px 5px 10px rgba(236, 218, 254, 0.64);
+$shade6-material: 0px 6px 12px rgba(236, 218, 254, 0.64);
+
+/* --------------------------------------------
    * FONTS
 -------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"); // Import font 'Lato' from 'fonts.google.com - google fonts'
