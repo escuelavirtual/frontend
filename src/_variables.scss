@@ -135,23 +135,15 @@ $shade6-material: 0px 6px 12px rgba(236, 218, 254, 0.64);
 /* --------------------------------------------
    * FONTS
 -------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+// import font 'Source Sans Pro' from 'fonts.google.com - google fonts'
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"); // Import font 'Lato' from 'fonts.google.com - google fonts'
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap"); // Import font 'Roboto' from 'fonts.google.com - google fonts'
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); // Import font 'Roboto' from 'fonts.google.com - google fonts'
 
-@font-face {
-  src: url(./assets/fonts/CascadiaCodePL.ttf);
-  font-family: "Cascadia Code PL";
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"); // Import font 'Roboto Slab' from 'fonts.google.com - google fonts'
 
-@font-face {
-  src: url(./assets/fonts/CascadiaCode.ttf);
-  font-family: "Cascadia Code";
-}
-
-// Fuentes unitarias
-$font-lato: "Lato";
-$font-Roboto: "Roboto";
-
-$font-family-default: "Roboto", "segoe UI", "Lato", sans-serif;
-$code-font-family-default: "Cascadia Code Pl", "Cascadia Code", "lato", "roboto";
+// typography titles and body
+$title-font: "Source Sans Pro", "Lato";
+$body-font: "Roboto", "Roboto Slab";
