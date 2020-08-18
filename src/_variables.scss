@@ -133,6 +133,42 @@ $shade5-material: 0px 5px 10px rgba(236, 218, 254, 0.64);
 $shade6-material: 0px 6px 12px rgba(236, 218, 254, 0.64);
 
 /* --------------------------------------------
+   * Text size
+-------------------------------------------- */
+//titles
+$large-title: 40px;
+$medium-title: 36px;
+$small-title: 30px;
+
+//subtitle
+$subtitle: 22px;
+$subtitle2: 18px;
+$smaller-subtitle: 14px;
+
+//text body
+$large-body: 18px;
+$medium-body: 14px;
+$small-body: 16px;
+$smaller-body: 12px;
+
+//text emphasis
+$body-emphasis-Medium: 16px;
+$body-emphasis-Small: 14px;
+$body-emphasis-smaller: 12px;
+
+//text buttons
+$super-larger-button: 30px;
+$large-button: 24px;
+$medium-button: 18px;
+$small-button: 12px;
+
+//text buttons light
+$super-larger-button-light: 30px;
+$large-button-light: 24px;
+$medium-button-light: 18px;
+$small-button-light: 12px;
+
+/* --------------------------------------------
    * FONTS
 -------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
