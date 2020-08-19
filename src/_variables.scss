@@ -1,102 +1,140 @@
 /* --------------------------------------------
    * COLORS
 -------------------------------------------- */
-$colorPrimary: #6705c6; // Color primary
-$colorSecondaryOne: #13f3f0; // Color Secondary one
-$colorSecondaryTwo: #02b6ff; // Color secondary two
-$colorTertiary: #f6f5f5; // Color tertiary
-$colorEnfasisGreen: #40b218; // Color enfasis green
-$colorEnfasisRed: #f44336; // Color enfasis red
-$colorEnfasisYellow: #ffc107; // Color enfasis yellow
-$colorEnfasisPurple: #88317a; // Color enfasis purple
+$cPrimary: #6705c6; // Color primary
+$cSOne: #13f3f0; // Color Secondary one
+$cSTwo: #02b6ff; // Color secondary two
+$cTertiary: #f6f5f5; // Color tertiary
+$cEGreen: #40b218; // Color enfasis green
+$cERed: #f44336; // Color enfasis red
+$cEYellow: #ffc107; // Color enfasis yellow
+$cEPurple: #88317a; // Color enfasis purple
+$dColor: #2c312d; //Dark Color
+
+//**********************************
 
 // Color primary light
-$cPLightOne: #8e1ef9;
-$cPLightTwo: #b369fb;
-$cPLightThree: #c68ffc;
-$cPLightFour: #ecdafe;
+$cPOne: #ecdafe;
+$cPTwo: #c68ffc;
+$cPThree: #b369fb;
+$cPFour: #8e1ef9;
+
 // color Primary dark
-$cPDarkOne: #4d0495;
-$cPDarkTwo: #40037c;
-$cPDarkThree: #40037c;
-$cPDarkFour: #27024a;
+$cPSix: #4d0495;
+$cPSeven: #40037c;
+$cPEight: #40037c;
+$cPNine: #27024a;
+
+//**********************************
 
 // Colors secondary's light
-$cSOneLightOne: #4ef6f4;
-$cSOneLightTwo: #89f9f8;
-$cSOneLightThree: #c4fcfb;
-$cSOneLightFour: #e2fefd;
+$cSOneOne: #e2fefd;
+$cSTwo: #c4fcfb;
+$cSoThree: #89f9f8;
+$cSoFour: #4ef6f4;
+
 // Colors secondary one light
-$cSOneDarkOne: #0bdad7;
-$cSOneOarkTwo: #089c9a;
-$cSOneDarkThree: #055d5c;
-$cSOneDarkFour: #033e3e;
+$cSoSix: #0bdad7;
+$cSoSeven: #089c9a;
+$cSoEight: #055d5c;
+$cSoNine: #033e3e;
+
+//**********************************
 
 // Colors secondary two light
-$cSTwoLightOne: #41c8ff;
-$cSTwoLightTwo: #81dbff;
-$cSTwoLightThree: #c0edff;
-$cSTwoLightFour: #dff6ff;
+$cStOne: #dff6ff;
+$cStTwo: #c0edff;
+$cStThree: #81dbff;
+$cStFour: #41c8ff;
+
 // Colors secondary two dark
-$cSTwoDarkOne: #0089c1;
-$cSTwoDarkTwo: #0072a1;
-$cSTwoDarkThree: #005b81;
-$cSTwoDarkFour: #004560;
+$cStSix: #0089c1;
+$cStSeven: #0072a1;
+$cStEight: #005b81;
+$cStNine: #004560;
+
+//**********************************
+
+// Light colors
+$dCOne: #e4e7e5;
+$dCTwo: #afb8b0;
+$dCThree: #7a887c;
+$dCFour: #4a534b;
+
+//dark colors
+$dCSix: #262a26;
+$dCSeven: #1f2320;
+$dCEight: #131513;
+$dCNine: #060706;
+
+//**********************************
 
 // Color tertiary light
-$cTLightOne: #f8f8f8;
-$cTLightTwo: #fbfafa;
-$cTLightThree: #fcfbfb;
-$cTLightFour: #ffffff;
+$cTOne: #ffffff;
+$cTTwo: #fcfbfb;
+$cTThree: #fbfafa;
+$cTFour: #f8f8f8;
+
 // Color tertiary dark
-$cTDarkOne: #d9d5d5;
-$cTDarkTwo: #bcb4b4;
-$cTDarkThree: #9f9494;
-$cTDarkFour: #817474;
+$cTFive: #d9d5d5;
+$cTSix: #bcb4b4;
+$cTEight: #9f9494;
+$cTNine: #817474;
+
+//**********************************
 
 // Color enfasis green light
-$cEGreenLghtOne: #61e433;
-$cEGreenLightTwo: #96ed77;
-$cEGreenLightThree: #caf6bb;
-$cEGreenLightFour: #e5fadd;
+$cEgOne: #e5fadd;
+$cEgTwo: #caf6bb;
+$cEgThree: #96ed77;
+$cEgFour: #61e433;
+
 // Color enfasis green dark
-$cEGreenDarkOne: #308512;
-$cEGreenDarkTwo: #20590c;
-$cEGreenDarkThree: #184309;
-$cEGreenGarkFour: #102c06;
+$cEgSix: #308512;
+$cEgSeven: #20590c;
+$cEgEight: #184309;
+$cEgNine: #102c06;
+
+//**********************************
 
 // Color enfasis red light
-$cERedLightOne: #f77268;
-$cERedLightTwo: #faa19b;
-$cERedLightThree: #fcd0cd;
-$cERedLightFour: none;
+$cErOne: #fcd0cd;
+$cErTwo: #faa19b;
+$cErThree: #f77268;
+
 // Color enfasis green dark
-$cERedDarkOne: #d4190c;
-$cERedDarkTwo: #8d1108;
-$cERedDarkThree: #6a0d06;
-$cERedDarkFour: #470804;
+$cErFive: #d4190c;
+$cErSix: #8d1108;
+$cErSeven: #6a0d06;
+$cErEight: #470804;
+
+//**********************************
 
 // Color enfasis yellow light
-$cEYellowLightOne: #ffd145;
-$cEYellowLightTwo: #ffe083;
-$cEYellowLightThree: #fff0c1;
-$cEYellowLightFour: #fff7e0;
+$cEyOne: #fff7e0;
+$cEyTwo: #fff0c1;
+$cEyThree: #ffe083;
+$cEyFour: #ffd145;
+
 // Color enfasis green dark
-$cEYellowDarkOne: #c59300;
-$cEYellowDarkTwo: #836200;
-$cEYellowDarkThree: #624a00;
-$cEYellowDarkFour: #423100;
+$cEySix: #c59300;
+$cEySeven: #836200;
+$cEyEight: #624a00;
+$cEyNine: #423100;
+
+//**********************************
 
 // Color enfasis purple light
-$cEPurpleLightOne: #be4cac;
-$cEPurpleLightTwo: #d487c8;
-$cEPurpleLightThree: #e9c3e3;
-$cEPurpleLightFour: #f4e1f1;
+$cEpOne: #f4e1f1;
+$cEpTwo: #e9c3e3;
+$cEpThree: #d487c8;
+$cEpFour: #be4cac;
+
 // Color enfasis purple dark
-$cEPurpleDarkOne: #66255c;
-$cEPurpleDarkTwo: #44183d;
-$cEPurpleDarkThree: #33122e;
-$cEPurpleDarkFour: #220c1f;
+$cEpSix: #66255c;
+$cEpSeven: #44183d;
+$cEpEight: #33122e;
+$cEpNine: #220c1f;
 
 /* --------------------------------------------
    * Spacing variables
