@@ -17,7 +17,7 @@ const PageNotFound = () => {
             amigo, e aconsejo regresar al inicio...
           </p>
           <a href="/" className="irAlInicio">
-            Ir al inicio <ArrowForwardIosIcon />
+            Ir al inicio <ArrowForwardIosIcon className="ArrowForwardIosIcon" />
           </a>
         </section>
       </div>
