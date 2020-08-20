@@ -40,6 +40,8 @@ Se utilizara el estilo UPPERCASE para los nombres de las variables globales
 
 Es deseable el uso del estilo PascalCase para los nombres de las clases en Typescript.
 
+Para más detalles, consulte esta [guía](https://google.github.io/styleguide/jsguide.html)
+
 #### CSS
 
 Separe las palabras de los nombres de ID y Clases con un guion (-)
@@ -62,10 +64,10 @@ No concatenar palabras y abreviaturas en los selectores con ningún carácter qu
 
 ```
 
+Para más detalles, consulte esta [guía](https://google.github.io/styleguide/htmlcssguide.html)
 
 
-
-### Estilos
+### Guia de Estilos
 
 En redaccion...
 
