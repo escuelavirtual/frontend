@@ -228,5 +228,5 @@ $smallButtonLight: 0.75rem; //12 px
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"); // Import font 'Roboto Slab' from 'fonts.google.com - google fonts'
 
 // typography titles and body
-$titleFont: "Source Sans Pro", "Lato";
-$bodyFont: "Roboto", "Roboto Slab";
+$titleFont: "Source Sans Pro", "Lato", sans-serif;
+$bodyFont: "Roboto", "Roboto Slab", sans-serif;
