@@ -1,14 +1,28 @@
 @import "./variables";
 
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
 body {
   margin: 0;
-  font-family: $bodyFont;
+  font-family: $fontDefault;
   font-size: 100%;
   font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $titleFont;
+  font-size: 100%;
+  font-style: normal;
 }
 
 code {
-  font-family: $bodyFont;
+  font-family: $fontCodeDefault;
 }
