@@ -226,6 +226,12 @@ $smallButtonLight: 12px;
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"); // Import font 'Roboto Slab' from 'fonts.google.com - google fonts'
 
+@import "./assets/fonts/CascadiaCodePL.ttf";
+
 // typography titles and body
 $titleFont: "Source Sans Pro", "Lato";
 $bodyFont: "Roboto", "Roboto Slab";
+
+$fontDefault: "Roboto", "Source Sans Pro", "segoe UI", "Lato", sans-serif;
+
+$fontCodeDeafult: "Cascadia Code Pl", sans-serif;
