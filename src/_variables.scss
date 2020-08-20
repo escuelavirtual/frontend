@@ -180,39 +180,40 @@ $shadeSixMaterial: 0px 6px 12px rgba(236, 218, 254, 0.64);
 
 /* --------------------------------------------
    * Text size
+   if 1rem = 16px then:
 -------------------------------------------- */
 //titles
-$largeTitle: 40px;
-$mediumTitle: 36px;
-$smallTitle: 30px;
+$largeTitle: 2.5rem; //40 px
+$mediumTitle: 2.25rem; //36 px
+$smallTitle: 1.875rem; //30 px
 
 //subtitle
-$subtitle: 22px;
-$subtitleTwo: 18px;
-$smallerSubtitle: 14px;
+$subtitle: 1.375rem; //22 px
+$subtitleTwo: 1.125rem; //18 px
+$smallerSubtitle: 0.875rem; //14 px
 
 //text body
-$largeBody: 18px;
-$mediumBody: 14px;
-$smallBody: 16px;
-$smallerBody: 12px;
+$largeBody: 1.125rem; //18 px
+$mediumBody: 0.875rem; //14 px
+$smallBody: 1rem; //16 px
+$smallerBody: 0.75rem; //12 px
 
 //text emphasis
-$bodyEmphasisMedium: 16px;
-$bodyEmphasisSmall: 14px;
-$bodyEmphasisSmaller: 12px;
+$bodyEmphasisMedium: 1rem; //16 px
+$bodyEmphasisSmall: 0.875rem; //14 px
+$bodyEmphasisSmaller: 0.75rem; //12 px
 
 //text buttons
-$superLargerButton: 30px;
-$largeButton: 24px;
-$mediumButton: 18px;
-$smallButton: 12px;
+$superLargerButton: 1.875rem; //30px
+$largeButton: 1.5rem; //24px
+$mediumButton: 1.125rem; // 18px
+$smallButton: 0.75rem; //12 px
 
 //text buttons light
-$superLargerButtonLight: 30px;
-$largeButtonLight: 24px;
-$mediumButtonLight: 18px;
-$smallButtonLight: 12px;
+$superLargerButtonLight: 1.875rem; //30 px
+$largeButtonLight: 1.5rem; //24 px
+$mediumButtonLight: 1.125rem; //18 px
+$smallButtonLight: 0.75rem; //12 px
 
 /* --------------------------------------------
    * FONTS
@@ -227,5 +228,5 @@ $smallButtonLight: 12px;
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"); // Import font 'Roboto Slab' from 'fonts.google.com - google fonts'
 
 // typography titles and body
-$titleFont: "Source Sans Pro", "Lato";
-$bodyFont: "Roboto", "Roboto Slab";
+$titleFont: "Source Sans Pro", "Lato", sans-serif;
+$bodyFont: "Roboto", "Roboto Slab", sans-serif;

@@ -1,27 +1,29 @@
+@import "../../src/variables";
+
 /* El div que contiene la imágen y el input están aquí, el contenedor es flex para que se pueda adaptar a los distintos
 tamaños entre imágen e input además de centrarlos verticalmente */
 .searcher {
-  box-shadow: 0px 1px 2px rgba(112, 92, 92, 0.12);
+  box-shadow: $shadeOneNormal;
   border-radius: 20px;
   display: flex;
   align-items: center;
   width: 342px;
-  margin: 24px 0px;
+  margin: $spacingTwenty-four 0px;
 }
 
 .searcher-image {
-  padding-left: 16px;
-  color: #afb8b0;
+  padding-left: $spacingSixteen;
+  color: $dCTwo;
 }
 
 /* Se modifica el input, se añade un borde y el display inlineblock para que pueda estar al lado de la img */
 .searcher-input {
   display: inline-block;
   height: 52px;
-  background: #ffffff;
+  background: $tCOne;
   border: none;
   width: 100%;
-  margin-left: 40px;
+  margin-left: $spacingForty;
 }
 
 /* Al ser clickeado elimino los bordes característicos de un elemento input text */
@@ -32,11 +34,11 @@ tamaños entre imágen e input además de centrarlos verticalmente */
 
 /* Se modifica las letras del input text, su fuente, su tamaño, su estilo entre otros... */
 .searcher-input::placeholder {
-  color: #afb8b0;
-  padding-inline-end: 40px;
-  font-family: 'Roboto', sans-serif;
+  color: $dCTwo;
+  padding-inline-end: $spacingForty;
+  font-family: $bodyFont;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: $mediumBody;
+  line-height: $spacingTwenty-four;
 }
