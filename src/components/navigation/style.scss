@@ -2,6 +2,9 @@
 
 #Navigation {
   display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   min-height: 20px;
   max-height: 100px;
@@ -19,9 +22,13 @@
     padding: 0;
     margin: 0;
   }
+  .navigation-searcher {
+    width: 25%;
+    min-width: 50px;
+  }
 }
 
-.navItems {
+.nav-items {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,13 +44,35 @@
       list-style: none;
       margin: 0 10px;
 
+      a:hover {
+        color: $pColor;
+      }
+
       a {
         justify-content: center;
         align-items: center;
         color: #333333;
         text-decoration: none;
         margin: 0;
+        font-size: 1rem;
       }
+    }
+  }
+}
+
+.nav-app-info {
+  a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-style: bold;
+    color: $pColor;
+    :hover,
+    :focus {
+      color: $sCTwo;
+      transition-duration: 0.5s;
+    }
+    a {
+      padding: 3px;
     }
   }
 }

@@ -2,10 +2,10 @@ import React from "react";
 import "./style.scss";
 
 const NavItems = (props: any) => {
-  const Items = [props.items];
+  const Items = props.items;
   const ItemsList = Items.map((Items: string) => (
     <li>
-      <a href="https://">
+      <a href="/">
         <span>{Items}</span>
       </a>
     </li>
@@ -13,7 +13,7 @@ const NavItems = (props: any) => {
 
   return (
     <>
-      <div className="navItems">
+      <div className="nav-items">
         <ul>{ItemsList}</ul>
       </div>
     </>
