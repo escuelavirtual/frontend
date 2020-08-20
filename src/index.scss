@@ -2,7 +2,11 @@
 
 body {
   margin: 0;
+//<<<<<<< organismo-pageNotFound
   font-family: "segoe UI";
+//=======
+  font-family: $bodyFont;
+//>>>>>>> dev
   font-size: 100%;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -10,5 +14,9 @@ body {
 }
 
 code {
+//<<<<<<< organismo-pageNotFound
   font-family: sans-serif;
+=======
+  font-family: $bodyFont;
+//>>>>>>> dev
 }
