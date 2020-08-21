@@ -1,13 +1,10 @@
 import React from "react";
-import Navigation from "../../components/navigation/index";
-import "./style.scss";
 import PageNotFoundLogo from "../../assets/img/PageNotFoundLogo.svg";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
-const PageNotFound = () => {
+export default function Page404() {
   return (
     <>
-      <Navigation />
       <div className="pageNotFoundContent">
         <img src={PageNotFoundLogo} alt="img 404" />
         <section className="sectionMessage">
@@ -23,6 +20,4 @@ const PageNotFound = () => {
       </div>
     </>
   );
-};
-
-export default PageNotFound;
+}

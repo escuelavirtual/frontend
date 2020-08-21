@@ -1,7 +1,6 @@
 import React from "react";
-// import * as Search from "./search";
-import "./style.scss";
 import SearchIcon from "@material-ui/icons/Search";
+// import * as Search from "./search";
 
 function Seeker(): JSX.Element {
   return (

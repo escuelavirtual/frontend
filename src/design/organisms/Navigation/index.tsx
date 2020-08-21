@@ -1,11 +1,10 @@
 import React from "react";
-import NavItems from "./navItems";
+import NavItems from "./NavItems";
 import Searcher from "../Searcher/index";
 import NavAppInfo from "./NavAppInfo";
-import "./style.scss";
-import config from "../../config.json";
+import config from "../../../config/config.json";
 
-function Navigation(props: any): JSX.Element {
+export default function Navigation(props: any): JSX.Element {
   return (
     <>
       <div id="Navigation">
@@ -31,5 +30,3 @@ function Navigation(props: any): JSX.Element {
     </>
   );
 }
-
-export default Navigation;
