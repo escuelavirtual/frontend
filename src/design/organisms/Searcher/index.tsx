@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.scss";
 import SearchRoundedIcon from "@material-ui/icons/SearchRounded";
 
 function Searcher(props: any): JSX.Element {
