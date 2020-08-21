@@ -1,28 +1,27 @@
 #Navigation {
   display: flex;
   align-content: center;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
-  min-height: 20px;
+  min-height: 100px;
   max-height: 100px;
-  background-color: #ffffff;
+  background-color: #f6f5f5;
   box-shadow: 2px 2px 5px #f1f1f1;
   position: sticky;
   top: 0;
   nav {
+    justify-content: space-between;
     display: flex;
     width: 100%;
     height: 100%;
-    justify-content: left;
     align-items: center;
     align-content: center;
     padding: 0;
     margin: 0;
   }
   .navigation-searcher {
-    width: 25%;
-    min-width: 50px;
+    flex: 0.9;
+    width: 100%;
   }
 }
 
