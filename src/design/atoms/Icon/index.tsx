@@ -1,7 +1,7 @@
 import React from "react";
 
 type IconProps = {
-  name: 'es' | 'en';
+  name: 'es' | 'en' | 'down-arrow';
   size?: number
 };
 
