@@ -8,7 +8,7 @@ const PageNotFound = lazy(() => import("./pages/Page404/index"));
 
 export default function App(): JSX.Element {
   return (
-    <Suspense fallback={<h1 className="loader" >Loading...</h1>}>
+    <Suspense fallback={<h1 className="loader">Loading...</h1>}>
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
