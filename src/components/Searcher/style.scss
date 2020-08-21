@@ -1,9 +1,10 @@
-#Searcher {
+#searcher {
   border: none;
-  background-color: #eeeeee;
+  background-color: #f8f8f8;
+  box-shadow: 0px 1px 2px rgba(112, 92, 92, 0.12);
   padding: 2px 5px;
   outline: none;
-  border-radius: 5px;
+  border-radius: 8px;
   margin: 0 10px;
   width: auto;
   min-width: 100px;
@@ -11,15 +12,37 @@
   align-items: center;
   align-content: center;
   justify-content: center;
-  // display: flex;
+  display: flex;
+  color: #444444;
+  font-size: 1.5rem;
 
-  #SearcherInput {
+  #searcher-input {
     background: none;
     border: none;
     width: 100%;
     height: 100%;
-    font-size: 16px;
-    padding: 4px 0;
+    font-size: 1rem;
+    padding: 3px 0;
     outline: none;
+  }
+
+  a {
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    .search-icon {
+      font-size: 1.4rem;
+      color: #666666;
+      padding-right: 5px;
+    }
+    :hover {
+      color: #444444;
+      font-size: 1.5rem;
+      transition-duration: 0.7s;
+    }
   }
 }
