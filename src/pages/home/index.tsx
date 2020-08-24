@@ -1,6 +1,7 @@
 import React from "react";
-import Navigation from "../../design/organisms/Navigation/index";
+import withSuspense from "../../hocs/withSuspense";
 
-export default function Home(): JSX.Element {
-  return <Navigation />;
+function Home(): JSX.Element {
+  return <h1>Home</h1>;
 }
+export default withSuspense(Home);
