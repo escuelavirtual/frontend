@@ -1,6 +1,6 @@
 import React from "react";
 import NavItems from "./NavItems";
-import Searcher from "../Searcher/index";
+import { Searcher } from "../../molecules/molecules";
 import NavAppInfo from "./NavAppInfo";
 import config from "../../../config/config.json";
 
