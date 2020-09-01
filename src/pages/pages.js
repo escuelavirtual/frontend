@@ -1,3 +1,3 @@
-export { default as Home } from "./home/index";
-export { default as Login } from "./login/index";
-export { default as PageNotFound } from "./Page404/index";
+export { default as Home } from "./home/";
+export { default as Login } from "./login/";
+export { default as PageNotFound } from "./page404/";
