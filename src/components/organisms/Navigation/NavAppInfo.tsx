@@ -4,14 +4,10 @@ const NavAppInfo = (props: any) => {
   return (
     <>
       <div className="nav-app-info">
-        <figure></figure>
+        {props.logo && <figure></figure>}
         <a href="/">
-          <a href="/" className="app-name">
-            {props.appName}
-          </a>
-          <a href="/versions" className="app-info">
-            {props.appVersion}
-          </a>
+          <div className="app-name">{props.appName}</div>
+          <div className="app-info">{props.appVersion}</div>
         </a>
       </div>
     </>

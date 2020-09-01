@@ -2,8 +2,8 @@ import React from "react";
 
 const NavItems = (props: any) => {
   const Items = props.items;
-  const ItemsList = Items.map((Items: string) => (
-    <li>
+  const ItemsList = Items.map((Items: string, i: number) => (
+    <li key={i}>
       <a href="/">
         <span>{Items}</span>
       </a>
