@@ -1,23 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const NavAppInfo = (props: any) => {
+const NavAppInfo = () => {
   return (
     <>
-      <div className="nav-app-info">
-        <figure></figure>
-        <a href="/">
-          <a href="/" className="app-name">
-            {props.appName}
-          </a>
-          <a href="/versions" className="app-info">
-            {props.appVersion}
-          </a>
-        </a>
+      <div className="logo">
+        <Link to="/">
+          <img
+            src="https://i.postimg.cc/gjF7kFYS/logo-1.png"
+            alt=""
+            className="logo-img"
+          />
+          <span className="logo-text">Nombre de la plataforma</span>
+        </Link>
       </div>
     </>
   );
 };
-
-type props = { appName: string; appVersion: string | number };
 
 export default NavAppInfo;

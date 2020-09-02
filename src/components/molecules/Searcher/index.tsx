@@ -5,9 +5,9 @@ function Searcher(props: any): JSX.Element {
   return (
     <>
       <form action="/search" method="get" role="search" id="searcher">
-        <a href="/search">
+        <button className="search-button">
           <SearchRoundedIcon className="search-icon" />
-        </a>
+        </button>
         <input
           type="text"
           name="searcher"

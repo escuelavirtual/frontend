@@ -1,76 +1,90 @@
 #Navigation {
   display: flex;
-  align-content: center;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  min-height: 20px;
-  max-height: 100px;
-  background-color: #ffffff;
-  box-shadow: 2px 2px 5px #f1f1f1;
+  min-height: 12vh;
+  background-color: $tColor;
+  box-shadow: 0px 2px 6px #f1f1f1;
   position: sticky;
   top: 0;
-  nav {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: left;
-    align-items: center;
-    align-content: center;
-    padding: 0;
-    margin: 0;
-  }
+  padding: 5px 40px;
+
   .navigation-searcher {
-    width: 25%;
-    min-width: 50px;
+    width: 40%;
+    min-width: 400px;
+    form {
+      height: 6vh;
+    }
   }
-}
 
-.nav-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  ul {
+  .nav-Items,
+  .nav-Items ul {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
 
-    li {
-      justify-content: center;
-      align-items: center;
-      list-style: none;
-      margin: 0 10px;
+  .nav-Items ul li {
+    list-style: none;
+  }
 
-      a:hover {
-        color: $pColor;
-      }
+  .nav-Items ul li a {
+    text-decoration: none;
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #2c312d;
+  }
 
-      a {
-        justify-content: center;
-        align-items: center;
-        color: #333333;
-        text-decoration: none;
-        margin: 0;
-        font-size: 1rem;
-      }
+  .nav-Items ul li:nth-child(1) {
+    margin-right: 24px;
+  }
+
+  .nav-Items ul li:nth-child(2) {
+    margin-right: 32px;
+  }
+
+  .nav-Items ul li:nth-child(3) {
+    margin-right: 16px;
+    a {
+      color: $pCThree;
     }
   }
-}
 
-.nav-app-info {
-  a {
+  .btn {
+    background-color: $pColor;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .logo {
     text-decoration: none;
-    text-transform: capitalize;
-    font-style: bold;
-    color: $pColor;
-    :hover,
-    :focus {
-      color: $sCTwo;
-      transition-duration: 0.5s;
-    }
+    color: #000000;
     a {
-      padding: 3px;
+      text-decoration: none;
     }
+  }
+
+  .logo-img {
+    vertical-align: middle;
+  }
+
+  .logo-text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 8px;
+    vertical-align: middle;
   }
 }
