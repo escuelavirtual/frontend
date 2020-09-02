@@ -1,29 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavItems = () => {
   return (
     <div className="nav-Items">
       <ul>
         <li>
-          <a href="/">
+          <Link to="/teach">
             <span>Enseñar</span>
-          </a>
+          </Link>
         </li>
-
         <li>
-          <a href="/">
+          <Link to="/courses">
             <span>Cursos</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/">
+          <Link to="/">
             <span>Inciar Sesión</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/">
+          <Link to="/">
             <button className="btn">Registrarse</button>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
