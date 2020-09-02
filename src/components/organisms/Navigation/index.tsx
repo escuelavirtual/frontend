@@ -1,6 +1,6 @@
 import React from "react";
-import NavItems from "./NavItems";
 import { Searcher } from "../../molecules/molecules";
+import NavItems from "./NavItems";
 import NavAppInfo from "./NavAppInfo";
 import config from "../../../config/config.json";
 
@@ -21,7 +21,7 @@ export default function Navigation(props: any): JSX.Element {
         />
       </div>
       <div className="navigation-items">
-        <NavItems items={props.items || ["Cursos", "Blog", "Enseñar"]} />
+        <NavItems />
       </div>
     </nav>
   );

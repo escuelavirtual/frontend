@@ -1,21 +1,32 @@
 import React from "react";
 
-const NavItems = (props: any) => {
-  const Items = props.items;
-  const ItemsList = Items.map((Items: string, i: number) => (
-    <li key={i}>
-      <a href="/">
-        <span>{Items}</span>
-      </a>
-    </li>
-  ));
-
+const NavItems = () => {
   return (
-    <>
-      <div className="nav-items">
-        <ul>{ItemsList}</ul>
-      </div>
-    </>
+    <div className="nav-Items">
+      <ul>
+        <li>
+          <a href="/">
+            <span>Enseñar</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/">
+            <span>Cursos</span>
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <span>Inciar Sesión</span>
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <button className="btn">Registrarse</button>
+          </a>
+        </li>
+      </ul>
+    </div>
   );
 };
 
