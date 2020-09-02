@@ -1,19 +1,18 @@
 import React from "react";
 
-const NavAppInfo = (props: any) => {
+const NavAppInfo = () => {
   return (
     <>
       <div className="nav-app-info">
-        {props.logo && <figure></figure>}
-        <a href="/">
-          <div className="app-name">{props.appName}</div>
-          <div className="app-info">{props.appVersion}</div>
-        </a>
+        <img
+          src="https://i.postimg.cc/gjF7kFYS/logo-1.png"
+          alt=""
+          className="logo-img"
+        />
+        <span className="logo-text">Nombre de la plataforma</span>
       </div>
     </>
   );
 };
-
-type props = { appName: string; appVersion: string | number };
 
 export default NavAppInfo;

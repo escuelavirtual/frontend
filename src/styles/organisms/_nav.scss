@@ -63,27 +63,25 @@
     font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
     line-height: 20px;
+    &:hover {
+      cursor: pointer;
+    }
   }
-
-  .btn:hover {
-    cursor: pointer;
-  }
-}
-
-.nav-app-info {
-  a {
+  .logo {
     text-decoration: none;
-    text-transform: capitalize;
-    font-style: 700;
-    color: $pColor;
-    display: flex;
-    div {
-      margin: 3px;
-    }
-    :hover,
-    :focus {
-      color: $sCTwo;
-      transition: all 0.5s;
-    }
+    color: #000000;
+  }
+
+  .logo-img {
+    vertical-align: middle;
+  }
+
+  .logo-text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 8px;
+    vertical-align: middle;
   }
 }
