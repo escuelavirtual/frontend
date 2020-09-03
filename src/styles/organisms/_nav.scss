@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 12vh;
+  min-height: 20px;
+  max-height: 50px;
+  height: auto;
   background-color: $tColor;
   box-shadow: 0px 2px 6px #f1f1f1;
   position: sticky;
@@ -10,11 +12,9 @@
   padding: 5px 40px;
 
   .navigation-searcher {
-    width: 40%;
-    min-width: 400px;
-    form {
-      height: 6vh;
-    }
+    width: 30%;
+    min-width: 20%;
+    height: 90%;
   }
 
   .nav-Items,
