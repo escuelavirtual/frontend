@@ -16,12 +16,12 @@ const NavItems = () => {
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/signup">
             <span>Inciar Sesión</span>
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/register">
             <button className="btn">Registrarse</button>
           </Link>
         </li>
