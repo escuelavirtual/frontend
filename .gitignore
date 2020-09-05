@@ -15,6 +15,9 @@ yarn.lock
 # production
 /build
 
+# bug
+debug.lock
+
 # misc
 .env
 .DS_Store
