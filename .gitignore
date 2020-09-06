@@ -16,7 +16,7 @@ yarn.lock
 /build
 
 # bug
-debug.lock
+debug.log
 
 # misc
 .env
