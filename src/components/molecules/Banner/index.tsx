@@ -8,7 +8,7 @@ export default function Banner(props: props) {
     <div className="banner">
       {props.src && <Image src={props.src} alt="No Found" />}
       <h1 className="banner-title">{props.title}</h1>
-      <h3 className="banner-">{props.text}</h3>
+      <h3 className="banner-description">{props.text}</h3>
     </div>
   );
 }

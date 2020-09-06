@@ -1,9 +1,9 @@
 import React from "react";
 import { Banner } from "../../molecules/molecules";
 
-type props = { items: any };
+type props = { items: object[] };
 
-export default function Header(props: props) {
+export default function Carousel(props: props) {
   return (
     <div className="header">
       {props.items.map((props: any, i: number) => (
