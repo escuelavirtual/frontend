@@ -1,26 +1,14 @@
 import React from "react";
-import SearchRoundedIcon from "@material-ui/icons/SearchRounded";
+import {TextField,ThemeProvider} from "@material-ui/core";
+import theme from "../../../config/theme.js";
 
 function Searcher(props: any): JSX.Element {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <form action="/search" method="get" role="search" id="searcher">
-        <button className="search-button">
-          <SearchRoundedIcon className="search-icon" />
-        </button>
-        <input
-          type="text"
-          name="searcher"
-          id="searcher-input"
-          placeholder={props.placeholder || "buscar..."}
-          translate="no"
-          autoCorrect="off"
-          maxLength={50}
-          minLength={3}
-          autoComplete="on"
-        />
+        <TextField variant="outlined" label="Buscar" size="small" placeholder="Que esperas!,  empeiza a escribir tu futuro." fullWidth/>
       </form>
-    </>
+    </ThemeProvider>
   );
 }
 
