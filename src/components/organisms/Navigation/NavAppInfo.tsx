@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import config from "../../../config/config";
 
 const NavAppInfo = () => {
   return (
@@ -12,7 +11,7 @@ const NavAppInfo = () => {
             alt=""
             className="logo-img"
           />
-          <span className="logo-text">{config.App.name}</span>
+          <span className="logo-text">Nombre de la plataforma</span>
         </Link>
       </div>
     </>
