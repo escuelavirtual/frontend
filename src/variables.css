@@ -1,0 +1,232 @@
+:root {
+  /* --------------------------------------------
+   * COLORS
+-------------------------------------------- */
+  --pColor: #6705c6;
+  --sColor: #13f3f0;
+  --sCTwo: #02b6ff;
+  --tColor: #f6f5f5;
+  --aGColor: #40b218;
+  --aRColor: #f44336;
+  --aYColor: #ffc107;
+  --aPColor: #88317a;
+  --dColor: #2c312d;
+
+  //**********************************
+
+  // Color primary light
+  --pCOne: #ecdafe; //Name in Figma: Primary Color 100
+  --pCTwo: #c68ffc; //Name in Figma: Primary Color 200
+  --pCThree: #b369fb; //Name in Fig`ma: Primary Color 300
+  --pCFour: #8e1ef9; //Name in Figma: Primary Color 400
+
+  // color Primary dark
+  --pCSix: #4d0495; //Name in Figma: Primary Color 600
+  --pCSeven: #40037c; //Name in Figma: Primary Color 700
+  --pCEight: #40037c; //Name in Figma: Primary Color 800
+  --pCNine: #27024a; //Name in Figma: Primary Color 900
+
+  //**********************************
+
+  // Colors secondary's light
+  --sCoOne: #e2fefd; //Name in Figma: Secondary Color 1 - 100
+  --sCoTwo: #c4fcfb; //Name in Figma: Secondary Color 1 - 200
+  --sCoThree: #89f9f8; //Name in Figma: Secondary Color 1 - 300
+  --sCoFour: #4ef6f4; //Name in Figma: Secondary Color 1 - 400
+
+  // Colors secondary one light
+  --sCoSix: #0bdad7; //Name in Figma: Secondary Color 1 - 600
+  --sCoSeven: #089c9a; //Name in Figma: Secondary Color 1 - 700
+  --sCoEight: #055d5c; //Name in Figma: Secondary Color 1 - 800
+  --sCoNine: #033e3e; //Name in Figma: Secondary Color 1 - 900
+
+  //**********************************
+
+  // Colors secondary two light
+  --sCtOne: #dff6ff; //Name in Figma: Secondary Color 2 - 100
+  --sCtTwo: #c0edff; //Name in Figma: Secondary Color 2 - 200
+  --sCtThree: #81dbff; //Name in Figma: Secondary Color 2 - 300
+  --sCtFour: #41c8ff; //Name in Figma: Secondary Color 2 - 400
+
+  // Colors secondary two dark
+  --sCtSix: #0089c1; //Name in Figma: Secondary Color 2 - 600
+  --sCtSeven: #0072a1; //Name in Figma: Secondary Color 2 - 700
+  --sCtEight: #005b81; //Name in Figma: Secondary Color 2 - 800
+  --sCtNine: #004560; //Name in Figma: Secondary Color 2 - 900
+
+  //**********************************
+
+  // Color tertiary light
+  --tCOne: #ffffff; //Name in Figma: Tertiary Color 100
+  --tCTwo: #fcfbfb; //Name in Figma: Tertiary Color 200
+  --tCThree: #fbfafa; //Name in Figma: Tertiary Color 300
+  --tCFour: #f8f8f8; //Name in Figma: Tertiary Color 400
+
+  // Color tertiary dark
+  --tCSix: #d9d5d5; //Name in Figma: Tertiary Color 600
+  --tCSeven: #bcb4b4; //Name in Figma: Tertiary Color 700
+  --tCEight: #9f9494; //Name in Figma: Tertiary Color 800
+  --tCNine: #817474; //Name in Figma: Tertiary Color 900
+
+  //**********************************
+
+  // Color enfasis green light
+  --aCgOne: #e5fadd; //Name in Figma:  Accent Color 1 - 100
+  --aCgTwo: #caf6bb; //Name in Figma:  Accent Color 1 - 200
+  --aCgThree: #96ed77; //Name in Figma:  Accent Color 1 - 300
+  --aCgFour: #61e433; //Name in Figma:  Accent Color 1 - 400
+
+  // Color enfasis green dark
+  --aCgSix: #308512; //Name in Figma:  Accent Color 1 - 600
+  --aCgSeven: #20590c; //Name in Figma:  Accent Color 1 - 700
+  --aCgEight: #184309; //Name in Figma:  Accent Color 1 - 800
+  --aCgNine: #102c06; //Name in Figma:  Accent Color 1 - 900
+
+  //**********************************
+
+  // Color enfasis red light
+  --aCrTwo: #fcd0cd; //Name in Figma:  Accent Color 2 - 200
+  --aCrThree: #faa19b; //Name in Figma:  Accent Color 2 - 300
+  --aCrFour: #f77268; //Name in Figma:  Accent Color 2 - 400
+
+  // Color enfasis green dark
+  --aCrSix: #d4190c; //Name in Figma:  Accent Color 2 - 600
+  --aCrSeven: #8d1108; //Name in Figma:  Accent Color 2 - 700
+  --aCrEight: #6a0d06; //Name in Figma:  Accent Color 2 - 800
+  --aCrNine: #470804; //Name in Figma:  Accent Color 2 - 900
+
+  //**********************************
+
+  // Color enfasis yellow light
+  --aCyOne: #fff7e0; //Name in Figma:  Accent Color 3 - 100
+  --aCyTwo: #fff0c1; //Name in Figma:  Accent Color 3 - 200
+  --aCyThree: #ffe083; //Name in Figma:  Accent Color 3 - 300
+  --aCyFour: #ffd145; //Name in Figma:  Accent Color 3 - 400
+
+  // Color enfasis green dark
+  --aCySix: #c59300; //Name in Figma:  Accent Color 3 - 600
+  --aCySeven: #836200; //Name in Figma:  Accent Color 3 - 700
+  --aCyEight: #624a00; //Name in Figma:  Accent Color 3 - 800
+  --aCyNine: #423100; //Name in Figma:  Accent Color 3 - 900
+
+  //**********************************
+
+  // Color enfasis purple light
+  --aCpOne: #f4e1f1; //Name in Figma:  Accent Color 4 - 100
+  --aCpTwo: #e9c3e3; //Name in Figma:  Accent Color 4 - 200
+  --aCpThree: #d487c8; //Name in Figma:  Accent Color 4 - 300
+  --aCpFour: #be4cac; //Name in Figma:  Accent Color 4 - 400
+
+  // Color enfasis purple dark
+  --aCpSix: #66255c; //Name in Figma:  Accent Color 4 - 600
+  --aCpSeven: #44183d; //Name in Figma:  Accent Color 4 - 700
+  --aCpEight: #33122e; //Name in Figma:  Accent Color 4 - 800
+  --aCpNine: #220c1f; //Name in Figma:  Accent Color 4 - 900
+
+  //**********************************
+
+  // Light colors
+  --dCOne: #e4e7e5; //Name in Figma: Dark color 100
+  --dCTwo: #afb8b0; //Name in Figma: Dark color 200
+  --dCThree: #7a887c; //Name in Figma: Dark color 300
+  --dCFour: #4a534b; //Name in Figma: Dark color 400
+
+  //dark colors
+  --dCSix: #262a26; //Name in Figma: Dark color 600
+  --dCSeven: #1f2320; //Name in Figma: Dark color 700
+  --dCEight: #131513; //Name in Figma: Dark color 800
+  --dCNine: #060706; //Name in Figma: Dark color 900
+
+  /* --------------------------------------------
+   * Spacing variables
+-------------------------------------------- */
+  --spacingFour: 4px;
+  --spacingEight: 8px;
+  --spacingSixteen: 16px;
+  --spacingTwenty-four: 24px;
+  --spacingThirty-two: 32px;
+  --spacingForty: 40px;
+  --spacingForty-eight: 48px;
+  --spacingFifty-six: 56px;
+  --spacingSixty-four: 64px;
+  --spacingSeventy-two: 72px;
+  --spacingEighty: 80px;
+
+  /* --------------------------------------------
+   * Spacing buttons
+-------------------------------------------- */
+  --spacingSuperBigButton: 25px;
+  --spacingBigButton: 22px;
+  --spacinSemiMiddleButton: 18px;
+  --spacingSmallButton: 12px;
+
+  /* --------------------------------------------
+   * Shades
+-------------------------------------------- */
+  --shadeOneNormal: 0px 1px 2px rgba(112, 92, 92, 0.12);
+  --shadeTwoNormal: 0px 2px 4px rgba(112, 92, 92, 0.12);
+  --shadeThreeNormal: 0px 3px 6px rgba(112, 92, 92, 0.12);
+  --shadeFourNormal: 0px 4px 8px rgba(112, 92, 92, 0.12);
+  --shadeFiveNormal: 0px 5px 10px rgba(112, 92, 92, 0.12);
+  --shadeSixNormal: 0px 6px 12px rgba(112, 92, 92, 0.12);
+
+  --shadeOnematerial: 0px 1px 2px rgba(236, 218, 254, 0.64);
+  --shadeTwoMaterial: 0px 2px 4px rgba(236, 218, 254, 0.64);
+  --shadeThreeMaterial: 0px 3px 6px rgba(236, 218, 254, 0.64);
+  --shadeFourMaterial: 0px 4px 8px rgba(236, 218, 254, 0.64);
+  --shadeFiveMaterial: 0px 5px 10px rgba(236, 218, 254, 0.64);
+  --shadeSixMaterial: 0px 6px 12px rgba(236, 218, 254, 0.64);
+
+  /* --------------------------------------------
+   * Text size
+-------------------------------------------- */
+  --largeTitle: 40px;
+  --mediumTitle: 36px;
+  --smallTitle: 30px;
+
+  --subtitle: 22px;
+  --subtitleTwo: 18px;
+  --smallerSubtitle: 14px;
+
+  --largeBody: 18px;
+  --mediumBody: 14px;
+  --smallBody: 16px;
+  --smallerBody: 12px;
+
+  --bodyEmphasisMedium: 16px;
+  --bodyEmphasisSmall: 14px;
+  --bodyEmphasisSmaller: 12px;
+
+  --superLargerButton: 30px;
+  --largeButton: 24px;
+  --mediumButton: 18px;
+  --smallButton: 12px;
+
+  --superLargerButtonLight: 30px;
+  --largeButtonLight: 24px;
+  --mediumButtonLight: 18px;
+  --smallButtonLight: 12px;
+
+  /* --------------------------------------------
+   * FONTS
+-------------------------------------------- */
+  @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+  @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"); // Import font 'Lato' from 'fonts.google.com - google fonts'
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); // Import font 'Roboto' from 'fonts.google.com - google fonts'
+
+  @font-face {
+    font-family: "Cascadia Code PL";
+    src: url(../../assets/fonts/CascadiaCodePL.ttf);
+  }
+
+  // typography titles and body
+  --titleFont: "Source Sans Pro", "Lato";
+  --bodyFont: "Roboto", "Roboto Slab";
+
+  --font-family-default: "Roboto", "Source Sans Pro", "segoe UI", "Lato",
+    sans-serif;
+
+  --fontCodeDefault: "Cascadia Code Pl", sans-serif;
+}
