@@ -7,7 +7,7 @@ const Home = lazy(() => import("./pages/home/index"));
 const Login = lazy(() => import("./pages/login/index"));
 const PageNotFound = lazy(() => import("./pages/page404/index"));
 
-export default function App(): JSX.Element {
+export default function App() {
   return (
     <Router>
       <Navigation />
