@@ -8,7 +8,7 @@ Para instalar este proyecto, clona el repositorio.
 
 Luego en tu terminal:
 
-`cd ruta / a / su / clon`
+`cd ruta/a/su/clon`
 
 `npm install`
 
@@ -65,12 +65,3 @@ No concatenar palabras y abreviaturas en los selectores con ningún carácter qu
 ```
 
 Para más detalles, consulte esta [guía](https://google.github.io/styleguide/htmlcssguide.html)
-
-
-### Guia de Estilos
-
-En redaccion...
-
-## Contribuir
-
-Si desea contribuir con nosotros, pongase en contacto.
