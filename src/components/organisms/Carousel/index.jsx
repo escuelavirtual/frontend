@@ -1,12 +1,10 @@
 import React from "react";
 import { Banner } from "../../molecules/molecules";
 
-type props = { items: any };
-
-export default function Header(props: props) {
+export default function Header(props) {
   return (
     <div className="header">
-      {props.items.map((props: any, i: number) => (
+      {props.items.map((props, i) => (
         <Banner title={props.title} text={props.text} src={props.src} />
       ))}
     </div>

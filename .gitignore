@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-# Archivos de control de versiones de dependencias
+# Files to Version Control Deps
 package-lock.json
 yarn.lock
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Login(): JSX.Element {
+function Login() {
   return <h1>Este es el login</h1>;
 }
 

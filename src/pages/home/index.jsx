@@ -2,7 +2,7 @@ import React from "react";
 import SEO from "../../components/SEO";
 import { Carousel } from "../../components/organisms/organisms";
 
-function Home(): JSX.Element {
+function Home() {
   return (
     <>
       <SEO title="Inicio" />
