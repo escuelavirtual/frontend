@@ -1,7 +1,7 @@
 import React from "react";
 import SearchRoundedIcon from "@material-ui/icons/SearchRounded";
 
-function Searcher(props: any): JSX.Element {
+function Searcher(props) {
   return (
     <>
       <form action="/search" method="get" role="search" id="searcher">
@@ -23,7 +23,5 @@ function Searcher(props: any): JSX.Element {
     </>
   );
 }
-
-type props = { placeholder: string };
 
 export default Searcher;
