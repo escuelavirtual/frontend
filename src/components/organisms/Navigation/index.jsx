@@ -1,27 +1,25 @@
 import React from "react";
 import { Searcher } from "../../molecules/molecules";
 import { Link } from "react-router-dom";
+import { Nav, Logo, Links, RegisterButton, NavSearch } from "./styles.js";
 export default function Navigation() {
   return (
-    <nav id="Navigation">
+    <Nav>
       <div className="nav-brand">
-        <div className="logo">
-          <Link to="/">
-            <img
-              src="https://i.postimg.cc/gjF7kFYS/logo-1.png"
-              alt=""
-              className="logo-img"
-            />
-            <span className="logo-text">Nombre de la plataforma</span>
-          </Link>
-        </div>
+        <Logo as={Link} to="/">
+          <img src="https://i.postimg.cc/gjF7kFYS/logo-1.png" alt="" />
+          <span>Nombre de la plataforma</span>
+        </Logo>
       </div>
       <div className="navigation-searcher">
-        <Searcher placeholder={"Adelante!, empieza a escribir tu futuro."} />
+        <NavSearch
+          as={Searcher}
+          placeHolder={"Adelante!, empieza a escribir tu futuro."}
+        />
       </div>
       <div className="navigation-items">
         <div className="nav-Items">
-          <ul>
+          <Links>
             <li>
               <Link to="/teach">
                 <span>Enseñar</span>
@@ -39,12 +37,12 @@ export default function Navigation() {
             </li>
             <li>
               <Link to="/register">
-                <button className="btn">Registrarse</button>
+                <RegisterButton className="btn">Registrarse</RegisterButton>
               </Link>
             </li>
-          </ul>
+          </Links>
         </div>
       </div>
-    </nav>
+    </Nav>
   );
 }
