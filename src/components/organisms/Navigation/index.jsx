@@ -3,7 +3,7 @@ import { Searcher } from "../../molecules/molecules";
 import NavItems from "./NavItems";
 import NavAppInfo from "./NavAppInfo";
 
-export default function Navigation(props: any): JSX.Element {
+export default function Navigation(props) {
   return (
     <nav id="Navigation">
       <div className="nav-brand">
