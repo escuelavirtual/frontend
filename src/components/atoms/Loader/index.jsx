@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Loader(): JSX.Element {
+export default function Loader() {
   return (
     <div className="back-loader">
       <div className="loader">
