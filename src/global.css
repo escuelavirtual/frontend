@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  /* --------------------------------------------
+   * COLORS
+-------------------------------------------- */
+
+  --pColor: #6705c6;
+  --sColor: #13f3f0;
+  --sCTwo: #02b6ff;
+  --tColor: #f6f5f5;
+  --aGColor: #40b218;
+  --aRColor: #f44336;
+  --aYColor: #ffc107;
+  --aPColor: #88317a;
+  --dColor: #2c312d;
+
+  --pCOne: #ecdafe;
+  --pCTwo: #c68ffc;
+  --pCThree: #b369fb;
+  --pCFour: #8e1ef9;
+  --pCSix: #4d0495;
+  --pCSeven: #40037c;
+  --pCEight: #40037c;
+  --pCNine: #27024a;
+
+  --sCoOne: #e2fefd;
+  --sCoTwo: #c4fcfb;
+  --sCoThree: #89f9f8;
+  --sCoFour: #4ef6f4;
+
+  --sCoSix: #0bdad7;
+  --sCoSeven: #089c9a;
+  --sCoEight: #055d5c;
+  --sCoNine: #033e3e;
+
+  --sCtOne: #dff6ff;
+  --sCtTwo: #c0edff;
+  --sCtThree: #81dbff;
+  --sCtFour: #41c8ff;
+  --sCtSix: #0089c1;
+  --sCtSeven: #0072a1;
+  --sCtEight: #005b81;
+  --sCtNine: #004560;
+
+  --tCOne: #ffffff;
+  --tCTwo: #fcfbfb;
+  --tCThree: #fbfafa;
+  --tCFour: #f8f8f8;
+
+  --tCSix: #d9d5d5;
+  --tCSeven: #bcb4b4;
+  --tCEight: #9f9494;
+  --tCNine: #817474;
+
+  --aCgOne: #e5fadd;
+  --aCgTwo: #caf6bb;
+  --aCgThree: #96ed77;
+  --aCgFour: #61e433;
+
+  --aCgSix: #308512;
+  --aCgSeven: #20590c;
+  --aCgEight: #184309;
+  --aCgNine: #102c06;
+
+  --aCrTwo: #fcd0cd;
+  --aCrThree: #faa19b;
+  --aCrFour: #f77268;
+
+  --aCrSix: #d4190c;
+  --aCrSeven: #8d1108;
+  --aCrEight: #6a0d06;
+  --aCrNine: #470804;
+
+  --aCyOne: #fff7e0;
+  --aCyTwo: #fff0c1;
+  --aCyThree: #ffe083;
+  --aCyFour: #ffd145;
+
+  --aCySix: #c59300;
+  --aCySeven: #836200;
+  --aCyEight: #624a00;
+  --aCyNine: #423100;
+
+  --aCpOne: #f4e1f1;
+  --aCpTwo: #e9c3e3;
+  --aCpThree: #d487c8;
+  --aCpFour: #be4cac;
+
+  --aCpSix: #66255c;
+  --aCpSeven: #44183d;
+  --aCpEight: #33122e;
+  --aCpNine: #220c1f;
+
+  --dCOne: #e4e7e5;
+  --dCTwo: #afb8b0;
+  --dCThree: #7a887c;
+  --dCFour: #4a534b;
+
+  --dCSix: #262a26;
+  --dCSeven: #1f2320;
+  --dCEight: #131513;
+  --dCNine: #060706;
+
+  /* --------------------------------------------
+   * Spacing variables
+-------------------------------------------- */
+  --spacingFour: 4px;
+  --spacingEight: 8px;
+  --spacingSixteen: 16px;
+  --spacingTwenty-four: 24px;
+  --spacingThirty-two: 32px;
+  --spacingForty: 40px;
+  --spacingForty-eight: 48px;
+  --spacingFifty-six: 56px;
+  --spacingSixty-four: 64px;
+  --spacingSeventy-two: 72px;
+  --spacingEighty: 80px;
+
+  /* --------------------------------------------
+   * Spacing buttons
+-------------------------------------------- */
+  --spacingSuperBigButton: 25px;
+  --spacingBigButton: 22px;
+  --spacinSemiMiddleButton: 18px;
+  --spacingSmallButton: 12px;
+
+  /* --------------------------------------------
+   * Shades
+-------------------------------------------- */
+  --shadeOneNormal: 0px 1px 2px rgba(112, 92, 92, 0.12);
+  --shadeTwoNormal: 0px 2px 4px rgba(112, 92, 92, 0.12);
+  --shadeThreeNormal: 0px 3px 6px rgba(112, 92, 92, 0.12);
+  --shadeFourNormal: 0px 4px 8px rgba(112, 92, 92, 0.12);
+  --shadeFiveNormal: 0px 5px 10px rgba(112, 92, 92, 0.12);
+  --shadeSixNormal: 0px 6px 12px rgba(112, 92, 92, 0.12);
+
+  --shadeOnematerial: 0px 1px 2px rgba(236, 218, 254, 0.64);
+  --shadeTwoMaterial: 0px 2px 4px rgba(236, 218, 254, 0.64);
+  --shadeThreeMaterial: 0px 3px 6px rgba(236, 218, 254, 0.64);
+  --shadeFourMaterial: 0px 4px 8px rgba(236, 218, 254, 0.64);
+  --shadeFiveMaterial: 0px 5px 10px rgba(236, 218, 254, 0.64);
+  --shadeSixMaterial: 0px 6px 12px rgba(236, 218, 254, 0.64);
+
+  /* --------------------------------------------
+   * Text size
+-------------------------------------------- */
+  --largeTitle: 40px;
+  --mediumTitle: 36px;
+  --smallTitle: 30px;
+
+  --subtitle: 22px;
+  --subtitleTwo: 18px;
+  --smallerSubtitle: 14px;
+
+  --largeBody: 18px;
+  --mediumBody: 14px;
+  --smallBody: 16px;
+  --smallerBody: 12px;
+
+  --bodyEmphasisMedium: 16px;
+  --bodyEmphasisSmall: 14px;
+  --bodyEmphasisSmaller: 12px;
+
+  --superLargerButton: 30px;
+  --largeButton: 24px;
+  --mediumButton: 18px;
+  --smallButton: 12px;
+
+  --superLargerButtonLight: 30px;
+  --largeButtonLight: 24px;
+  --mediumButtonLight: 18px;
+  --smallButtonLight: 12px;
+  /* --------------------------------------------
+   * FONTS
+-------------------------------------------- */
+  --titleFont: "Source Sans Pro", "Lato";
+  --bodyFont: "Roboto", "Roboto Slab";
+
+  --font-family-default: "Roboto", "Source Sans Pro", "segoe UI", "Lato",
+    sans-serif;
+
+  --fontCodeDefault: "Cascadia Code Pl", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: var(--bodyFont);
+}
