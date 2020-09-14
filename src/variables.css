@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+  @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"); /* Import font 'Lato' from 'fonts.google.com - google fonts' */ 
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); /* Import font 'Roboto' from 'fonts.google.com - google fonts' */
+
+  @font-face {
+    font-family: "Cascadia Code PL";
+    src: url(../../assets/fonts/CascadiaCodePL.ttf);
+  }
+
 :root {
   /* --------------------------------------------
    * COLORS
@@ -12,9 +23,9 @@
   --aPColor: #88317a;
   --dColor: #2c312d;
 
-  //**********************************
 
-  // Color primary light
+
+  /* // Color primary light
   --pCOne: #ecdafe; //Name in Figma: Primary Color 100
   --pCTwo: #c68ffc; //Name in Figma: Primary Color 200
   --pCThree: #b369fb; //Name in Fig`ma: Primary Color 300
@@ -26,7 +37,7 @@
   --pCEight: #40037c; //Name in Figma: Primary Color 800
   --pCNine: #27024a; //Name in Figma: Primary Color 900
 
-  //**********************************
+   -------------------------------------
 
   // Colors secondary's light
   --sCoOne: #e2fefd; //Name in Figma: Secondary Color 1 - 100
@@ -40,7 +51,7 @@
   --sCoEight: #055d5c; //Name in Figma: Secondary Color 1 - 800
   --sCoNine: #033e3e; //Name in Figma: Secondary Color 1 - 900
 
-  //**********************************
+  -------------------------------------
 
   // Colors secondary two light
   --sCtOne: #dff6ff; //Name in Figma: Secondary Color 2 - 100
@@ -54,7 +65,7 @@
   --sCtEight: #005b81; //Name in Figma: Secondary Color 2 - 800
   --sCtNine: #004560; //Name in Figma: Secondary Color 2 - 900
 
-  //**********************************
+  -------------------------------------
 
   // Color tertiary light
   --tCOne: #ffffff; //Name in Figma: Tertiary Color 100
@@ -68,7 +79,7 @@
   --tCEight: #9f9494; //Name in Figma: Tertiary Color 800
   --tCNine: #817474; //Name in Figma: Tertiary Color 900
 
-  //**********************************
+  -------------------------------------
 
   // Color enfasis green light
   --aCgOne: #e5fadd; //Name in Figma:  Accent Color 1 - 100
@@ -82,7 +93,7 @@
   --aCgEight: #184309; //Name in Figma:  Accent Color 1 - 800
   --aCgNine: #102c06; //Name in Figma:  Accent Color 1 - 900
 
-  //**********************************
+  -------------------------------------
 
   // Color enfasis red light
   --aCrTwo: #fcd0cd; //Name in Figma:  Accent Color 2 - 200
@@ -95,7 +106,7 @@
   --aCrEight: #6a0d06; //Name in Figma:  Accent Color 2 - 800
   --aCrNine: #470804; //Name in Figma:  Accent Color 2 - 900
 
-  //**********************************
+  -------------------------------------
 
   // Color enfasis yellow light
   --aCyOne: #fff7e0; //Name in Figma:  Accent Color 3 - 100
@@ -109,7 +120,7 @@
   --aCyEight: #624a00; //Name in Figma:  Accent Color 3 - 800
   --aCyNine: #423100; //Name in Figma:  Accent Color 3 - 900
 
-  //**********************************
+  ----------------------------------------
 
   // Color enfasis purple light
   --aCpOne: #f4e1f1; //Name in Figma:  Accent Color 4 - 100
@@ -123,7 +134,7 @@
   --aCpEight: #33122e; //Name in Figma:  Accent Color 4 - 800
   --aCpNine: #220c1f; //Name in Figma:  Accent Color 4 - 900
 
-  //**********************************
+  ------------------------------------------------------
 
   // Light colors
   --dCOne: #e4e7e5; //Name in Figma: Dark color 100
@@ -136,6 +147,8 @@
   --dCSeven: #1f2320; //Name in Figma: Dark color 700
   --dCEight: #131513; //Name in Figma: Dark color 800
   --dCNine: #060706; //Name in Figma: Dark color 900
+ */
+
 
   /* --------------------------------------------
    * Spacing variables
@@ -209,19 +222,9 @@
 
   /* --------------------------------------------
    * FONTS
--------------------------------------------- */
-  @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+  -------------------------------------------- */
 
-  @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"); // Import font 'Lato' from 'fonts.google.com - google fonts'
-
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); // Import font 'Roboto' from 'fonts.google.com - google fonts'
-
-  @font-face {
-    font-family: "Cascadia Code PL";
-    src: url(../../assets/fonts/CascadiaCodePL.ttf);
-  }
-
-  // typography titles and body
+  /* typography titles and body */
   --titleFont: "Source Sans Pro", "Lato";
   --bodyFont: "Roboto", "Roboto Slab";
 
